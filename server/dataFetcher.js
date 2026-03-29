@@ -1,9 +1,12 @@
 'use strict';
 
-const yahooFinance = require('yahoo-finance2').default;
+const YahooFinance = require('yahoo-finance2').default;
 const { daysAgo, withRetry, ConcurrencyLimiter } = require('./utils');
 
-const ETF_TICKERS = ['IWFQ.L', 'IWFV.L', 'IWFM.L'];
+// Instantiate once — v3 requires `new YahooFinance()` rather than using .default directly
+const yf = new YahooFinance({ suppressNotices: ['ripHistorical'] });
+
+const ETF_TICKERS       = ['IWFQ.L', 'IWFV.L', 'IWFM.L'];
 const SENTIMENT_TICKERS = ['^VIX', '^GSPC', '^TNX'];
 
 const limiter = new ConcurrencyLimiter(
@@ -12,27 +15,36 @@ const limiter = new ConcurrencyLimiter(
 const RETRY_COUNT = parseInt(process.env.YAHOO_RETRY_COUNT) || 3;
 const RETRY_DELAY = parseInt(process.env.YAHOO_RETRY_BASE_DELAY_MS) || 1000;
 
+// chart() is the current supported endpoint (historical() was removed by Yahoo).
+// We transform the response into the same {date, adjClose, close, ...} shape
+// that the rest of the codebase expects from getAdjClose() / getDates().
 async function fetchHistorical(ticker, daysBack) {
   return limiter.run(() =>
-    withRetry(
-      () => yahooFinance.historical(ticker, {
-        period1: daysAgo(daysBack),
-        period2: new Date(),
-        interval: '1d'
-      }),
-      RETRY_COUNT,
-      RETRY_DELAY
-    )
+    withRetry(async () => {
+      const result = await yf.chart(ticker, {
+        period1:         daysAgo(daysBack),
+        period2:         new Date(),
+        interval:        '1d',
+        includePrePost:  false
+      });
+
+      // chart() returns { quotes: [{date, open, high, low, close, volume, adjclose}] }
+      return (result.quotes || []).map(q => ({
+        date:     q.date,
+        open:     q.open,
+        high:     q.high,
+        low:      q.low,
+        close:    q.close,
+        volume:   q.volume,
+        adjClose: q.adjclose ?? q.close   // chart() uses lowercase 'adjclose'
+      }));
+    }, RETRY_COUNT, RETRY_DELAY)
   );
 }
 
 async function fetchQuote(ticker) {
   return limiter.run(() =>
-    withRetry(
-      () => yahooFinance.quote(ticker),
-      RETRY_COUNT,
-      RETRY_DELAY
-    )
+    withRetry(() => yf.quote(ticker), RETRY_COUNT, RETRY_DELAY)
   );
 }
 
@@ -51,9 +63,7 @@ async function fetchAllData() {
   ];
 
   const histResults = await Promise.allSettled(
-    histFetches.map(({ ticker, days }) =>
-      fetchHistorical(ticker, days)
-    )
+    histFetches.map(({ ticker, days }) => fetchHistorical(ticker, days))
   );
 
   histFetches.forEach(({ ticker }, i) => {
