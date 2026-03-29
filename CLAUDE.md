@@ -4,36 +4,143 @@ This file provides guidance for AI assistants (such as Claude Code) working in t
 
 ## Repository Overview
 
-**Name:** Test
+**Name:** ETF Rotation Signal
 **Owner:** tjdonaghy39
 **Remote:** `tjdonaghy39/Test` on GitHub
-**Status:** Freshly initialized — no source code yet beyond a placeholder README.
+**Stack:** Node.js 18+ · Express · yahoo-finance2 · technicalindicators · vanilla JS · Chart.js
 
-This is a minimal repository currently containing only a README. It was created with a single "Initial commit" and has no language, framework, or tooling established yet.
+A full-stack web application that analyses three iShares World Factor ETFs (IWFQ.L / IWFV.L / IWFM.L) and generates BUY / HOLD / SELL signals using relative performance, technical momentum indicators, and market sentiment overlays.
+
+---
 
 ## Repository Structure
 
 ```
 Test/
-└── README.md   # Placeholder README (contents: "# Test\nTest")
+├── package.json               # npm project (CommonJS, no build step)
+├── .env                       # Runtime config (PORT, cache TTL, retry settings)
+├── .gitignore
+├── CLAUDE.md                  # This file
+├── README.md
+│
+├── server/
+│   ├── index.js               # Express entry point, routes, rate limiting
+│   ├── cache.js               # In-memory TTL cache (Map-based, 15-min default)
+│   ├── utils.js               # Shared helpers: GBX/GBP, dates, retry, concurrency
+│   ├── dataFetcher.js         # yahoo-finance2 calls with retry + concurrency limit
+│   ├── indicators.js          # RSI, MACD, ROC, SMA wrappers (null-safe)
+│   ├── sentimentScorer.js     # VIX bands/trend, GSPC vs 200dMA, TNX scoring
+│   └── signalEngine.js        # Composite scoring → BUY/HOLD/SELL with reasons
+│
+└── public/                    # Static files served by Express
+    ├── index.html             # Single-page dashboard
+    ├── css/
+    │   └── styles.css
+    └── js/
+        ├── app.js             # Fetch cycle, auto-refresh, visibility API
+        ├── charts.js          # Chart.js: perf chart, RSI sub-chart, MACD chart
+        └── cards.js           # Signal card rendering, sentiment panel updates
 ```
+
+---
+
+## Running the App
+
+```bash
+npm install
+npm start          # production
+npm run dev        # with --watch auto-restart (Node 18+)
+```
+
+Open `http://localhost:3000`. The API auto-refreshes every 15 minutes in the browser.
+
+---
+
+## Architecture & Key Design Decisions
+
+### Data source
+
+`yahoo-finance2` is used instead of Google Finance (no public API). LSE tickers use the `.L` suffix:
+- `IWFQ.L` — iShares MSCI World Quality Factor UCITS ETF
+- `IWFV.L` — iShares MSCI World Value Factor UCITS ETF
+- `IWFM.L` — iShares MSCI World Momentum Factor UCITS ETF
+
+Sentiment tickers: `^VIX`, `^GSPC`, `^TNX`
+
+### GBX vs GBP (critical)
+
+LSE ETFs return prices in **pence (GBX)**, not pounds. Divide by 100 for display only. Return calculations use percentage changes so currency unit doesn't matter. `utils.normalisePriceToGBP()` handles this.
+
+### Signal scoring
+
+Each ETF receives a `totalScore` (roughly −4 to +8) from four components:
+
+| Component | Weight / range | Source |
+|---|---|---|
+| Relative performance | 0–3 | 1W/1M/3M ROC, min-max scaled vs peers |
+| Momentum | 0–3 | ROC rank + acceleration bonus |
+| Technical | −2 to +2 | RSI zone + MACD histogram + price vs 50dMA |
+| Sentiment adjustment | −3 to +3 | VIX+GSPC+TNX composite, half-weight overlay |
+
+**Thresholds:** `≥5` = STRONG BUY, `≥3.5` = BUY, `≥2` = HOLD (medium), `≥0.5` = HOLD (low), `<0.5` = SELL
+
+**Emergency overrides:**
+1. `^GSPC` crosses below its 200dMA → all signals forced to SELL
+2. VIX > 30 → BUY signals suppressed to HOLD
+3. ETF price >5% below its own 200dMA → score capped at 3.4 (prevents BUY)
+4. All ETFs weak in RISK_OFF regime → suppress residual BUYs to HOLD
+
+### Fast trend detection
+
+Short-term ROC acceleration (`ROC_5 > ROC_21 or ROC_63`) fires a signal before MACD crossovers confirm, satisfying the "earlier than standard indicators" requirement. VIX trend (current vs 5-day average) detects sentiment shifts before band thresholds are crossed.
+
+### Caching
+
+Results are cached in memory for 15 minutes (`CACHE_TTL_MINUTES` in `.env`). On fetch failure, stale cached data is returned with `stale: true` and a warning banner is shown in the UI.
+
+### TNX is factor-aware
+
+Rising yields hurt quality/momentum (IWFQ, IWFM) but are relatively neutral-to-supportive for value (IWFV). The TNX score is applied differently per ticker in `signalEngine.js`.
+
+---
+
+## API Endpoints
+
+| Method | Path | Description |
+|---|---|---|
+| GET | `/api/signals` | Full signal response (ETFs + sentiment + scores) |
+| GET | `/api/health` | Cache age and last fetch timestamp |
+
+Frontend calls `/api/signals` on load and every 15 minutes.
+
+---
+
+## Environment Variables (`.env`)
+
+| Variable | Default | Description |
+|---|---|---|
+| `PORT` | `3000` | HTTP port |
+| `CACHE_TTL_MINUTES` | `15` | How long to cache results |
+| `MAX_CONCURRENT_YAHOO_REQUESTS` | `2` | Concurrency limiter for Yahoo Finance |
+| `YAHOO_RETRY_COUNT` | `3` | Retries per Yahoo Finance call |
+| `YAHOO_RETRY_BASE_DELAY_MS` | `1000` | Base retry delay (doubles each attempt) |
+
+---
 
 ## Git Workflow
 
 ### Branches
 
-- `main` — the stable/default branch. Do not push directly unless explicitly told to.
-- `claude/<description>` — branches used for AI-assisted work. Always develop on the designated feature branch.
+- `main` — stable/default. Do not push directly.
+- `claude/<description>` — AI-assisted development branches.
 
-### Branch to develop on
+### Current development branch
 
-When working in an AI-assisted session, always check the system instructions for the designated branch. Currently: `claude/add-claude-documentation-ka0jd`.
+`claude/add-claude-documentation-ka0jd`
 
 ### Commit conventions
 
-- Use clear, descriptive commit messages in the imperative mood (e.g., `Add authentication module`, `Fix null pointer in parser`).
-- Keep commits focused — one logical change per commit.
-- Do not amend published commits; create new ones instead.
+Imperative mood, one logical change per commit (e.g. `Add ROC acceleration signal`, `Fix GBX display rounding`).
 
 ### Push workflow
 
@@ -41,49 +148,32 @@ When working in an AI-assisted session, always check the system instructions for
 git push -u origin <branch-name>
 ```
 
-If a push fails due to a network error, retry up to 4 times with exponential backoff (2s, 4s, 8s, 16s).
+Retry up to 4× on network failure with exponential backoff (2s, 4s, 8s, 16s).
 
 ### Pull requests
 
-Do **not** create a pull request unless the user explicitly requests one.
+Do **not** create a pull request unless explicitly requested.
 
-## Development Conventions (to be established)
-
-Because this repository has no source code yet, the following conventions should be adopted when adding code:
-
-### General principles
-
-- Prefer editing existing files over creating new ones.
-- Do not add speculative abstractions or features not explicitly requested.
-- Do not add comments to code unless the logic is non-obvious.
-- Avoid backward-compatibility shims for code that has no users yet.
-
-### Security
-
-- Never introduce command injection, XSS, SQL injection, or other OWASP Top 10 vulnerabilities.
-- Validate input only at system boundaries (user input, external APIs).
-
-### Testing
-
-- Add tests when a testing framework is established for the project.
-- Do not add test stubs or empty test files speculatively.
+---
 
 ## When to Ask vs. Act
 
-**Act freely (local, reversible):**
-- Creating or editing files
-- Running tests or linters
-- Staging and committing changes on the designated branch
+**Act freely:**
+- Editing server or frontend files
+- Running the server locally
+- Committing and pushing on the designated branch
 
-**Ask first (irreversible or shared-state):**
-- Force-pushing or resetting commits
-- Deleting files or branches
-- Creating pull requests
+**Ask first:**
+- Changing signal scoring weights or thresholds (affects trading decisions)
+- Switching data provider from Yahoo Finance
+- Force-pushing, resetting commits, creating PRs
 - Pushing to `main`
-- Any action visible to others (comments, PR reviews, releases)
 
-## Notes for AI Assistants
+---
 
-- This repo currently has no build system, test runner, linter, or CI/CD. Do not assume any of these exist until they are added.
-- When the stack is decided (language, framework, tooling), update this file to reflect the new conventions.
-- Keep this file up to date as the project evolves — it is the single source of truth for AI working conventions in this repo.
+## Development Notes
+
+- No build tool, transpiler, or test framework is configured. Tests should be added if the project matures.
+- Chart.js is loaded from CDN — no bundler needed.
+- The server is stateless between restarts (cache is in-memory). No database is used.
+- yahoo-finance2 can be brittle (Yahoo's auth layer changes). If fetches fail consistently, check the package's GitHub issues for crumb/cookie workarounds.
