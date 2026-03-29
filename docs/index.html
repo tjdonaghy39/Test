@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETF Rotation Signal — IWFQ / IWFV / IWFM</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-left">
+      <h1>ETF Rotation Signal</h1>
+      <p class="subtitle">iShares World Factor ETFs — Quality · Value · Momentum</p>
+    </div>
+    <div class="header-right">
+      <span id="regime-badge" class="regime-badge">—</span>
+      <div class="refresh-row">
+        <span id="last-updated" class="last-updated">Loading…</span>
+        <button id="refresh-btn" title="Refresh now">↻</button>
+        <span id="refresh-spinner" class="spinner" style="display:none">⟳</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Alert banner (stale data / errors) -->
+  <div id="banner" class="banner" style="display:none"></div>
+
+  <!-- Sentiment panel -->
+  <section class="sentiment-panel">
+    <div class="sentiment-card" id="sent-vix">
+      <div class="sent-label">VIX (Fear Gauge)</div>
+      <div class="sent-value" id="vix-value">—</div>
+      <div class="sent-sub" id="vix-band">—</div>
+    </div>
+    <div class="sentiment-card" id="sent-gspc">
+      <div class="sent-label">S&amp;P 500 vs 200dMA</div>
+      <div class="sent-value" id="gspc-ratio">—</div>
+      <div class="sent-sub" id="gspc-sub">—</div>
+    </div>
+    <div class="sentiment-card" id="sent-tnx">
+      <div class="sent-label">10-yr Yield (21d change)</div>
+      <div class="sent-value" id="tnx-value">—</div>
+      <div class="sent-sub" id="tnx-sub">—</div>
+    </div>
+    <div class="sentiment-card" id="sent-composite">
+      <div class="sent-label">Sentiment Score</div>
+      <div class="sent-value" id="composite-value">—</div>
+      <div class="sent-sub" id="composite-label">—</div>
+    </div>
+  </section>
+
+  <!-- Signal cards -->
+  <section class="cards-section">
+    <div id="signal-cards" class="cards-grid"></div>
+  </section>
+
+  <!-- Relative performance chart -->
+  <section class="chart-section">
+    <h2>Relative Performance (rebased to 100)</h2>
+    <div class="chart-wrap">
+      <canvas id="perf-chart"></canvas>
+    </div>
+  </section>
+
+  <!-- Detail charts (shown when an ETF card is expanded) -->
+  <section class="chart-section" id="detail-section" style="display:none">
+    <h2 id="detail-title">Detail — <span id="detail-ticker"></span></h2>
+    <div class="detail-charts">
+      <div class="chart-wrap">
+        <h3>RSI (14-period)</h3>
+        <canvas id="rsi-chart"></canvas>
+      </div>
+      <div class="chart-wrap">
+        <h3>MACD (12/26/9)</h3>
+        <canvas id="macd-chart"></canvas>
+      </div>
+    </div>
+    <button id="close-detail" class="close-btn">Close detail ✕</button>
+  </section>
+
+  <!-- Chart.js from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.min.js"></script>
+  <script src="/js/charts.js"></script>
+  <script src="/js/cards.js"></script>
+  <script src="/js/app.js"></script>
+</body>
+</html>

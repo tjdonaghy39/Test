@@ -1,0 +1,41 @@
+name: Update ETF Signals
+
+on:
+  # Run at 08:00, 12:00, and 16:30 UTC Mon–Fri (covers London market open/midday/close)
+  schedule:
+    - cron: '0 8 * * 1-5'
+    - cron: '0 12 * * 1-5'
+    - cron: '30 16 * * 1-5'
+  # Allow manual trigger from the GitHub Actions tab
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-signals:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate signals
+        run: node scripts/generate-signals.js
+
+      - name: Commit and push updated signals
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/signals.json
+          git diff --staged --quiet || git commit -m "chore: update ETF signals $(date -u '+%Y-%m-%d %H:%M UTC') [skip ci]"
+          git push

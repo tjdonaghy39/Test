@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: etf-rotation-signal
+    runtime: node
+    branch: claude/add-claude-documentation-ka0jd
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    envVars:
+      - key: PORT
+        value: 3000
+      - key: CACHE_TTL_MINUTES
+        value: 15
+      - key: MAX_CONCURRENT_YAHOO_REQUESTS
+        value: 2
+      - key: YAHOO_RETRY_COUNT
+        value: 3
+      - key: YAHOO_RETRY_BASE_DELAY_MS
+        value: 1000
