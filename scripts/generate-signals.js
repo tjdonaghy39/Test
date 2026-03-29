@@ -35,6 +35,10 @@ async function main() {
   console.log(`signals.json written → ${OUTPUT_PATH}`);
   console.log(`Market regime: ${signals.marketRegime}`);
   signals.etfs.forEach(e => console.log(`  ${e.ticker}: ${e.signal} (score ${e.scores.total})`));
+
+  // Yahoo Finance leaves open keep-alive connections — force exit so the
+  // process doesn't hang indefinitely waiting for them to close.
+  process.exit(0);
 }
 
 main();

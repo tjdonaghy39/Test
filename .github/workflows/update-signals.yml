@@ -15,6 +15,7 @@ permissions:
 jobs:
   update-signals:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
       - name: Checkout repository
