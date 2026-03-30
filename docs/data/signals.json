@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-03-30T15:56:24.938Z",
+  "timestamp": "2026-03-30T19:44:03.138Z",
   "marketRegime": "RISK_OFF",
   "sentiment": {
     "vix": {
-      "value": 29.72,
-      "band": "HIGH",
-      "score": -2,
+      "value": 31.49,
+      "band": "CRISIS",
+      "score": -3,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 6400.55,
-      "ma200": 6636.73,
-      "ratio": 0.9644,
+      "value": 6330.9,
+      "ma200": 6636.38,
+      "ratio": 0.954,
       "score": -1,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.328,
-      "change21d": 0.28,
+      "value": 4.342,
+      "change21d": 0.294,
       "growthScore": -1,
       "valueScore": 0,
       "label": "RISING"
     },
-    "composite": -4,
+    "composite": -5,
     "label": "BEARISH"
   },
   "etfs": [
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 5813,
       "priceGBP": 5813,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -0.7,
         "1M": -5.92,
@@ -52,10 +52,10 @@
         "relative": 1.74,
         "momentum": 2,
         "technical": -0.5,
-        "sentimentAdjusted": -2.5,
-        "total": 0.74
+        "sentimentAdjusted": -3,
+        "total": 0.24
       },
-      "signal": "HOLD",
+      "signal": "SELL",
       "confidence": "LOW",
       "reasons": [
         "Above-average relative performance vs peers",
@@ -65,7 +65,7 @@
         "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
-        "VIX 29.72 — elevated fear, risk appetite suppressed"
+        "VIX 31.49 — extreme fear, very high market risk"
       ],
       "chartData": {
         "dates": [
@@ -734,7 +734,7 @@
       "currency": "GBp",
       "price": 4651,
       "priceGBP": 4651,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 0.67,
         "1M": -5.79,
@@ -754,8 +754,8 @@
         "relative": 3,
         "momentum": 2.5,
         "technical": -0.5,
-        "sentimentAdjusted": -2,
-        "total": 3
+        "sentimentAdjusted": -2.5,
+        "total": 2.5
       },
       "signal": "HOLD",
       "confidence": "MEDIUM",
@@ -767,7 +767,7 @@
         "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
-        "VIX 29.72 — elevated fear, risk appetite suppressed"
+        "VIX 31.49 — extreme fear, very high market risk"
       ],
       "chartData": {
         "dates": [
@@ -1436,7 +1436,7 @@
       "currency": "GBp",
       "price": 6888,
       "priceGBP": 6888,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -2.13,
         "1M": -8.49,
@@ -1456,8 +1456,8 @@
         "relative": 0,
         "momentum": 1,
         "technical": -1.5,
-        "sentimentAdjusted": -2.5,
-        "total": -3
+        "sentimentAdjusted": -3,
+        "total": -3.5
       },
       "signal": "SELL",
       "confidence": "LOW",
@@ -1469,7 +1469,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
-        "VIX 29.72 — elevated fear, risk appetite suppressed"
+        "VIX 31.49 — extreme fear, very high market risk"
       ],
       "chartData": {
         "dates": [
