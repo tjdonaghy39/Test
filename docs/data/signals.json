@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-04-02T19:36:03.511Z",
+  "timestamp": "2026-04-03T10:09:09.059Z",
   "marketRegime": "NEUTRAL",
   "sentiment": {
     "vix": {
-      "value": 24.95,
+      "value": 23.87,
       "band": "ELEVATED",
       "score": -1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 6568.82,
-      "ma200": 6644.53,
-      "ratio": 0.9886,
+      "value": 6582.69,
+      "ma200": 6644.6,
+      "ratio": 0.9907,
       "score": 0,
       "bearCross": false
     },
@@ -32,37 +32,37 @@
       "currency": "GBp",
       "price": 5951,
       "priceGBP": 5951,
-      "marketState": "POSTPOST",
+      "marketState": "CLOSED",
       "returns": {
-        "1W": 0.92,
-        "1M": -3.91,
-        "3M": -0.08
+        "1W": 2.11,
+        "1M": -2.65,
+        "3M": 0.44
       },
       "technicals": {
-        "rsi14": 50,
+        "rsi14": 48.4,
         "macd": {
-          "macd": -59.5683,
-          "signal": -57.9593,
-          "histogram": -1.609
+          "macd": 69.4659,
+          "signal": -7.6732,
+          "histogram": 77.1391
         },
-        "priceVs50dma": -1.28,
+        "priceVs50dma": -1.88,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 0.07,
+        "relative": 0.16,
         "momentum": 1,
         "technical": 0,
         "sentimentAdjusted": -0.5,
-        "total": 0.57
+        "total": 0.66
       },
       "signal": "HOLD",
       "confidence": "LOW",
       "reasons": [
         "Lagging peers — weakest relative performance",
-        "1-month return: -3.9%",
-        "3-month return: -0.1%",
-        "RSI 50 — neutral zone",
-        "MACD negative but histogram recovering",
+        "1-month return: -2.7%",
+        "3-month return: +0.4%",
+        "RSI 48 — neutral zone",
+        "MACD positive but decelerating — watch for reversal",
         "Short-term momentum accelerating above medium-term pace — emerging trend"
       ],
       "chartData": {
@@ -155,6 +155,7 @@
           "2026-03-27",
           "2026-03-30",
           "2026-03-31",
+          "2026-04-01",
           "2026-04-02"
         ],
         "prices": [
@@ -246,6 +247,7 @@
           5773,
           5813,
           5839,
+          7894.1201171875,
           5951
         ],
         "rsiDates": [
@@ -323,6 +325,7 @@
           "2026-03-27",
           "2026-03-30",
           "2026-03-31",
+          "2026-04-01",
           "2026-04-02"
         ],
         "rsi": [
@@ -400,7 +403,8 @@
           30.06,
           35.27,
           38.47,
-          49.97
+          88.2,
+          48.38
         ],
         "macdHistory": [
           {
@@ -719,9 +723,14 @@
             "histogram": -13.08729599914242
           },
           {
-            "macd": -59.568328112834024,
-            "signal": -57.95932959404006,
-            "histogram": -1.6089985187939675
+            "macd": 95.4384048821803,
+            "signal": -26.957982995037188,
+            "histogram": 122.39638787721748
+          },
+          {
+            "macd": 69.46589158240477,
+            "signal": -7.673208079548797,
+            "histogram": 77.13909966195357
           }
         ]
       }
@@ -732,37 +741,37 @@
       "currency": "GBp",
       "price": 4789,
       "priceGBP": 4789,
-      "marketState": "POSTPOST",
+      "marketState": "CLOSED",
       "returns": {
-        "1W": 1.44,
-        "1M": -2.33,
-        "3M": 7.21
+        "1W": 2.33,
+        "1M": 0.69,
+        "3M": 6.54
       },
       "technicals": {
-        "rsi14": 54.6,
+        "rsi14": 49.3,
         "macd": {
-          "macd": -27.9009,
-          "signal": -29.3621,
-          "histogram": 1.4612
+          "macd": 77.187,
+          "signal": 11.882,
+          "histogram": 65.3051
         },
-        "priceVs50dma": 0.31,
+        "priceVs50dma": -0.39,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.83,
-        "momentum": 1.5,
-        "technical": 1,
+        "relative": 2.39,
+        "momentum": 2,
+        "technical": 0,
         "sentimentAdjusted": -0.5,
-        "total": 3.83
+        "total": 3.89
       },
       "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
-        "Above-average relative performance vs peers",
-        "1-month return: -2.3%",
-        "3-month return: +7.2%",
-        "RSI 55 — neutral zone",
-        "MACD histogram positive and widening — bullish acceleration",
+        "Strongest relative performer vs peers across 1W/1M/3M",
+        "1-month return: +0.7%",
+        "3-month return: +6.5%",
+        "RSI 49 — neutral zone",
+        "MACD positive but decelerating — watch for reversal",
         "Short-term momentum accelerating above medium-term pace — emerging trend"
       ],
       "chartData": {
@@ -855,6 +864,7 @@
           "2026-03-27",
           "2026-03-30",
           "2026-03-31",
+          "2026-04-01",
           "2026-04-02"
         ],
         "prices": [
@@ -946,6 +956,7 @@
           4641,
           4651,
           4652,
+          6350.81005859375,
           4789
         ],
         "rsiDates": [
@@ -1023,6 +1034,7 @@
           "2026-03-27",
           "2026-03-30",
           "2026-03-31",
+          "2026-04-01",
           "2026-04-02"
         ],
         "rsi": [
@@ -1100,7 +1112,8 @@
           41.8,
           42.75,
           42.85,
-          54.62
+          86.45,
+          49.25
         ],
         "macdHistory": [
           {
@@ -1419,9 +1432,14 @@
             "histogram": -9.12137306129777
           },
           {
-            "macd": -27.900856954459414,
-            "signal": -29.36206525188178,
-            "histogram": 1.4612082974223668
+            "macd": 96.6879796285175,
+            "signal": -4.4442979352864,
+            "histogram": 101.1322775638039
+          },
+          {
+            "macd": 77.18702363215198,
+            "signal": 11.881966378201277,
+            "histogram": 65.30505725395071
           }
         ]
       }
@@ -1432,7 +1450,7 @@
       "currency": "GBp",
       "price": 7221,
       "priceGBP": 7221,
-      "marketState": "POSTPOST",
+      "marketState": "CLOSED",
       "returns": {
         "1W": 3.29,
         "1M": -0.35,
@@ -1449,13 +1467,13 @@
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.8,
-        "momentum": 3,
+        "relative": 1.47,
+        "momentum": 2.5,
         "technical": 0,
         "sentimentAdjusted": -0.5,
-        "total": 4.3
+        "total": 3.47
       },
-      "signal": "BUY",
+      "signal": "HOLD",
       "confidence": "MEDIUM",
       "reasons": [
         "Above-average relative performance vs peers",
