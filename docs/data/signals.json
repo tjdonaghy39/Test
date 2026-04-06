@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-06T11:14:59.476Z",
+  "timestamp": "2026-04-06T14:38:23.088Z",
   "marketRegime": "NEUTRAL",
   "sentiment": {
     "vix": {
-      "value": 24.97,
+      "value": 23.95,
       "band": "ELEVATED",
       "score": -1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 6582.69,
-      "ma200": 6644.6,
-      "ratio": 0.9907,
+      "value": 6605.35,
+      "ma200": 6647.72,
+      "ratio": 0.9936,
       "score": 0,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.313,
-      "change21d": 0.167,
+      "value": 4.329,
+      "change21d": 0.196,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
@@ -39,21 +39,21 @@
         "3M": 0.44
       },
       "technicals": {
-        "rsi14": 48.4,
+        "rsi14": 50,
         "macd": {
-          "macd": 69.4761,
-          "signal": -7.6581,
-          "histogram": 77.1342
+          "macd": -50.8173,
+          "signal": -56.6455,
+          "histogram": 5.8282
         },
-        "priceVs50dma": -1.88,
+        "priceVs50dma": -1.25,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 0.16,
         "momentum": 1,
-        "technical": 0,
+        "technical": 1,
         "sentimentAdjusted": -0.5,
-        "total": 0.66
+        "total": 1.66
       },
       "signal": "HOLD",
       "confidence": "LOW",
@@ -61,8 +61,8 @@
         "Lagging peers — weakest relative performance",
         "1-month return: -2.7%",
         "3-month return: +0.4%",
-        "RSI 48 — neutral zone",
-        "MACD positive but decelerating — watch for reversal",
+        "RSI 50 — neutral zone",
+        "MACD histogram positive and widening — bullish acceleration",
         "Short-term momentum accelerating above medium-term pace — emerging trend"
       ],
       "chartData": {
@@ -241,7 +241,7 @@
           5773,
           5813,
           5839,
-          7894.1201171875,
+          5941,
           5951
         ],
         "rsiDates": [
@@ -391,8 +391,8 @@
           30.03,
           35.24,
           38.45,
-          88.2,
-          48.38
+          49.1,
+          50.01
         ],
         "macdHistory": [
           {
@@ -696,14 +696,14 @@
             "histogram": -13.093014872631343
           },
           {
-            "macd": 95.44947651370512,
-            "signal": -26.941625040894706,
-            "histogram": 122.39110155459983
+            "macd": -60.3549772790293,
+            "signal": -58.1025157994416,
+            "histogram": -2.2524614795877014
           },
           {
-            "macd": 69.47614050818538,
-            "signal": -7.6580719310786876,
-            "histogram": 77.13421243926408
+            "macd": -50.81732666512289,
+            "signal": -56.64547797257786,
+            "histogram": 5.8281513074549665
           }
         ]
       }
@@ -721,21 +721,21 @@
         "3M": 6.54
       },
       "technicals": {
-        "rsi14": 49.3,
+        "rsi14": 54.5,
         "macd": {
-          "macd": 77.1886,
-          "signal": 11.8843,
-          "histogram": 65.3043
+          "macd": -18.5728,
+          "signal": -27.1128,
+          "histogram": 8.5401
         },
-        "priceVs50dma": -0.39,
+        "priceVs50dma": 0.26,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 2.39,
         "momentum": 2,
-        "technical": 0,
+        "technical": 1,
         "sentimentAdjusted": -0.5,
-        "total": 3.89
+        "total": 4.89
       },
       "signal": "BUY",
       "confidence": "MEDIUM",
@@ -743,8 +743,8 @@
         "Strongest relative performer vs peers across 1W/1M/3M",
         "1-month return: +0.7%",
         "3-month return: +6.5%",
-        "RSI 49 — neutral zone",
-        "MACD positive but decelerating — watch for reversal",
+        "RSI 54 — neutral zone",
+        "MACD histogram positive and widening — bullish acceleration",
         "Short-term momentum accelerating above medium-term pace — emerging trend"
       ],
       "chartData": {
@@ -923,7 +923,7 @@
           4641,
           4651,
           4652,
-          6350.81005859375,
+          4796,
           4789
         ],
         "rsiDates": [
@@ -1073,8 +1073,8 @@
           41.79,
           42.74,
           42.84,
-          86.44,
-          49.25
+          55.09,
+          54.48
         ],
         "macdHistory": [
           {
@@ -1378,14 +1378,14 @@
             "histogram": -9.122262661069556
           },
           {
-            "macd": 96.6896972552322,
-            "signal": -4.441758199378043,
-            "histogram": 101.13145545461025
+            "macd": -27.340734769340088,
+            "signal": -29.247844604292503,
+            "histogram": 1.907109834952415
           },
           {
-            "macd": 77.18861353634566,
-            "signal": 11.884316147766697,
-            "histogram": 65.30429738857896
+            "macd": -18.57277415214321,
+            "signal": -27.112830513862644,
+            "histogram": 8.540056361719433
           }
         ]
       }
@@ -1403,30 +1403,30 @@
         "3M": -0.51
       },
       "technicals": {
-        "rsi14": 49,
+        "rsi14": 52.4,
         "macd": {
-          "macd": 78.4609,
-          "signal": -23.0711,
-          "histogram": 101.5319
+          "macd": -66.9387,
+          "signal": -82.2825,
+          "histogram": 15.3438
         },
-        "priceVs50dma": -1.51,
+        "priceVs50dma": -0.87,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 1.47,
         "momentum": 2.5,
-        "technical": 0,
+        "technical": 1,
         "sentimentAdjusted": -0.5,
-        "total": 3.47
+        "total": 4.47
       },
-      "signal": "HOLD",
+      "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
         "Above-average relative performance vs peers",
         "1-month return: -0.3%",
         "3-month return: -0.5%",
-        "RSI 49 — neutral zone",
-        "MACD positive but decelerating — watch for reversal",
+        "RSI 52 — neutral zone",
+        "MACD histogram positive and widening — bullish acceleration",
         "Short-term momentum accelerating above medium-term pace — emerging trend"
       ],
       "chartData": {
@@ -1605,7 +1605,7 @@
           6902,
           6888,
           6934,
-          9602.75,
+          7242,
           7221
         ],
         "rsiDates": [
@@ -1755,8 +1755,8 @@
           36.09,
           35.62,
           38.45,
-          83.6,
-          49.03
+          53.3,
+          52.37
         ],
         "macdHistory": [
           {
@@ -2060,14 +2060,14 @@
             "histogram": -22.403335471501094
           },
           {
-            "macd": 103.38292201790227,
-            "signal": -48.45407924644116,
-            "histogram": 151.83700126434343
+            "macd": -84.93901530403491,
+            "signal": -86.1184667108286,
+            "histogram": 1.1794514067936888
           },
           {
-            "macd": 78.4608557820311,
-            "signal": -23.071092240746708,
-            "histogram": 101.53194802277781
+            "macd": -66.93870266311114,
+            "signal": -82.28251390128511,
+            "histogram": 15.34381123817397
           }
         ]
       }
