@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-04-07T16:14:49.033Z",
+  "timestamp": "2026-04-07T19:45:48.324Z",
   "marketRegime": "RISK_OFF",
   "sentiment": {
     "vix": {
-      "value": 26.39,
+      "value": 26.62,
       "band": "HIGH",
       "score": -2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 6576.38,
-      "ma200": 6650.72,
-      "ratio": 0.9888,
+      "value": 6592.33,
+      "ma200": 6650.8,
+      "ratio": 0.9912,
       "score": 0,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.354,
-      "change21d": 0.218,
+      "value": 4.343,
+      "change21d": 0.207,
       "growthScore": -1,
       "valueScore": 0,
       "label": "RISING"
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 5909,
       "priceGBP": 5909,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 2.36,
         "1M": -4.25,
@@ -64,7 +64,7 @@
         "RSI 46 — neutral zone",
         "MACD histogram positive and widening — bullish acceleration",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "VIX 26.39 — elevated fear, risk appetite suppressed"
+        "VIX 26.62 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -715,7 +715,7 @@
       "currency": "GBp",
       "price": 4779,
       "priceGBP": 4779,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 2.97,
         "1M": -1.26,
@@ -747,7 +747,7 @@
         "RSI 54 — neutral zone",
         "MACD histogram positive and widening — bullish acceleration",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "VIX 26.39 — elevated fear, risk appetite suppressed"
+        "VIX 26.62 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -1398,7 +1398,7 @@
       "currency": "GBp",
       "price": 7212,
       "priceGBP": 7212,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 4.49,
         "1M": -2.09,
@@ -1430,7 +1430,7 @@
         "RSI 52 — neutral zone",
         "MACD histogram positive and widening — bullish acceleration",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "VIX 26.39 — elevated fear, risk appetite suppressed"
+        "VIX 26.62 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
