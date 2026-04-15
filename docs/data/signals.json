@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-15T15:53:24.507Z",
+  "timestamp": "2026-04-15T20:08:24.943Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
@@ -9,20 +9,20 @@
       "trendBonus": 0
     },
     "gspc": {
-      "value": 6998.17,
-      "ma200": 6674.85,
-      "ratio": 1.0484,
-      "score": 1,
+      "value": 7022.95,
+      "ma200": 6674.97,
+      "ratio": 1.0521,
+      "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.283,
-      "change21d": 0.081,
+      "value": 4.282,
+      "change21d": 0.08,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
     },
-    "composite": 2,
+    "composite": 3,
     "label": "MILDLY_BULLISH"
   },
   "etfs": [
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6108,
       "priceGBP": 6108,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 1.14,
         "1M": 1.99,
@@ -52,17 +52,18 @@
         "relative": 0.27,
         "momentum": 1,
         "technical": 1,
-        "sentimentAdjusted": 1,
-        "total": 3.27
+        "sentimentAdjusted": 1.5,
+        "total": 3.77
       },
-      "signal": "HOLD",
+      "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
         "Lagging peers — weakest relative performance",
         "1-month return: +2.0%",
         "3-month return: +0.7%",
         "RSI 61 — healthy upward momentum zone",
-        "MACD positive but decelerating — watch for reversal"
+        "MACD positive but decelerating — watch for reversal",
+        "S&P 500 well above 200dMA — supportive bull regime"
       ],
       "chartData": {
         "dates": [
@@ -713,7 +714,7 @@
       "currency": "GBp",
       "price": 4924,
       "priceGBP": 4924,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 0.31,
         "1M": 4.23,
@@ -733,17 +734,18 @@
         "relative": 1.59,
         "momentum": 0.5,
         "technical": 1.5,
-        "sentimentAdjusted": 1,
-        "total": 4.59
+        "sentimentAdjusted": 1.5,
+        "total": 5.09
       },
-      "signal": "BUY",
-      "confidence": "MEDIUM",
+      "signal": "STRONG BUY",
+      "confidence": "HIGH",
       "reasons": [
         "Above-average relative performance vs peers",
         "1-month return: +4.2%",
         "3-month return: +6.9%",
         "RSI 61 — healthy upward momentum zone",
-        "MACD positive but decelerating — watch for reversal"
+        "MACD positive but decelerating — watch for reversal",
+        "S&P 500 well above 200dMA — supportive bull regime"
       ],
       "chartData": {
         "dates": [
@@ -1394,7 +1396,7 @@
       "currency": "GBp",
       "price": 7722,
       "priceGBP": 7722,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 2.66,
         "1M": 8.03,
@@ -1414,8 +1416,8 @@
         "relative": 2.19,
         "momentum": 2,
         "technical": 1.5,
-        "sentimentAdjusted": 1,
-        "total": 6.69
+        "sentimentAdjusted": 1.5,
+        "total": 7.19
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
@@ -1424,7 +1426,8 @@
         "1-month return: +8.0%",
         "3-month return: +2.7%",
         "RSI 67 — healthy upward momentum zone",
-        "MACD positive but decelerating — watch for reversal"
+        "MACD positive but decelerating — watch for reversal",
+        "S&P 500 well above 200dMA — supportive bull regime"
       ],
       "chartData": {
         "dates": [
