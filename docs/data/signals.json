@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-04-21T15:59:23.848Z",
-  "marketRegime": "RISK_ON",
+  "timestamp": "2026-04-21T20:11:49.587Z",
+  "marketRegime": "NEUTRAL",
   "sentiment": {
     "vix": {
-      "value": 19.76,
-      "band": "MODERATE",
-      "score": 1,
+      "value": 20.34,
+      "band": "ELEVATED",
+      "score": -1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7089.87,
-      "ma200": 6692.25,
-      "ratio": 1.0594,
+      "value": 7064.01,
+      "ma200": 6692.12,
+      "ratio": 1.0556,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.295,
-      "change21d": -0.039,
+      "value": 4.292,
+      "change21d": -0.042,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
     },
-    "composite": 3,
-    "label": "MILDLY_BULLISH"
+    "composite": 1,
+    "label": "NEUTRAL"
   },
   "etfs": [
     {
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6204,
       "priceGBP": 6204,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 1.49,
         "1M": 5.98,
@@ -52,8 +52,8 @@
         "relative": 0.75,
         "momentum": 1,
         "technical": 1.5,
-        "sentimentAdjusted": 1.5,
-        "total": 4.75
+        "sentimentAdjusted": 0.5,
+        "total": 3.75
       },
       "signal": "BUY",
       "confidence": "MEDIUM",
@@ -714,7 +714,7 @@
       "currency": "GBp",
       "price": 5000,
       "priceGBP": 5000,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 1.38,
         "1M": 6.79,
@@ -734,8 +734,8 @@
         "relative": 2.08,
         "momentum": 1,
         "technical": 1.5,
-        "sentimentAdjusted": 1.5,
-        "total": 6.08
+        "sentimentAdjusted": 0.5,
+        "total": 5.08
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
@@ -1396,7 +1396,7 @@
       "currency": "GBp",
       "price": 7777,
       "priceGBP": 7777,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 0.5,
         "1M": 9.91,
@@ -1416,11 +1416,11 @@
         "relative": 1.37,
         "momentum": 1,
         "technical": 1.5,
-        "sentimentAdjusted": 1.5,
-        "total": 5.37
+        "sentimentAdjusted": 0.5,
+        "total": 4.37
       },
-      "signal": "STRONG BUY",
-      "confidence": "HIGH",
+      "signal": "BUY",
+      "confidence": "MEDIUM",
       "reasons": [
         "Above-average relative performance vs peers",
         "1-month return: +9.9%",
