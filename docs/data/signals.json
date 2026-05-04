@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-05-04T10:14:28.408Z",
+  "timestamp": "2026-05-04T13:19:55.681Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 17.51,
+      "value": 17.81,
       "band": "MODERATE",
       "score": 1,
       "trendBonus": 0
@@ -16,8 +16,8 @@
       "bearCross": false
     },
     "tnx": {
-      "value": 4.378,
-      "change21d": 0.065,
+      "value": 4.398,
+      "change21d": 0.063,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
