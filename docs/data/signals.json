@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-05-04T17:57:44.919Z",
+  "timestamp": "2026-05-05T10:03:49.929Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 18.17,
+      "value": 18.29,
       "band": "MODERATE",
       "score": 1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7207.93,
-      "ma200": 6733,
-      "ratio": 1.0705,
+      "value": 7200.75,
+      "ma200": 6732.96,
+      "ratio": 1.0695,
       "score": 2,
       "bearCross": false
     },
@@ -32,37 +32,37 @@
       "currency": "GBp",
       "price": 6200,
       "priceGBP": 6200,
-      "marketState": "CLOSED",
+      "marketState": "REGULAR",
       "returns": {
-        "1W": -0.4,
-        "1M": 6.18,
-        "3M": 3.47
+        "1W": -0.05,
+        "1M": 4.19,
+        "3M": 3.04
       },
       "technicals": {
-        "rsi14": 62.4,
+        "rsi14": 60.6,
         "macd": {
-          "macd": 53.823,
-          "signal": 53.1147,
-          "histogram": 0.7083
+          "macd": 51.3272,
+          "signal": 52.7572,
+          "histogram": -1.43
         },
-        "priceVs50dma": 2.27,
+        "priceVs50dma": 2.09,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 0,
         "momentum": 0,
-        "technical": 1.5,
+        "technical": 0.5,
         "sentimentAdjusted": 1.5,
-        "total": 3
+        "total": 2
       },
       "signal": "HOLD",
       "confidence": "MEDIUM",
       "reasons": [
         "Lagging peers — weakest relative performance",
-        "1-month return: +6.2%",
-        "3-month return: +3.5%",
-        "RSI 62 — healthy upward momentum zone",
-        "MACD positive but decelerating — watch for reversal",
+        "1-month return: +4.2%",
+        "3-month return: +3.0%",
+        "RSI 61 — healthy upward momentum zone",
+        "MACD histogram negative and widening — bearish momentum",
         "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime"
       ],
@@ -153,7 +153,8 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30",
-          "2026-05-01"
+          "2026-05-01",
+          "2026-05-05"
         ],
         "prices": [
           5943,
@@ -241,7 +242,8 @@
           6181,
           6173,
           6176,
-          6200
+          6200,
+          6189.81005859375
         ],
         "rsiDates": [
           "2026-01-19",
@@ -315,7 +317,8 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30",
-          "2026-05-01"
+          "2026-05-01",
+          "2026-05-05"
         ],
         "rsi": [
           61.19,
@@ -389,7 +392,8 @@
           60.68,
           59.47,
           59.8,
-          62.39
+          62.39,
+          60.6
         ],
         "macdHistory": [
           {
@@ -696,6 +700,11 @@
             "macd": 53.822993071895326,
             "signal": 53.11474283355745,
             "histogram": 0.7082502383378753
+          },
+          {
+            "macd": 51.32719939137405,
+            "signal": 52.75723414512077,
+            "histogram": -1.4300347537467175
           }
         ]
       }
@@ -706,36 +715,36 @@
       "currency": "GBp",
       "price": 5195,
       "priceGBP": 5195,
-      "marketState": "CLOSED",
+      "marketState": "REGULAR",
       "returns": {
-        "1W": 2.87,
-        "1M": 11.67,
-        "3M": 12.06
+        "1W": 3.68,
+        "1M": 9.4,
+        "3M": 11.97
       },
       "technicals": {
-        "rsi14": 74.4,
+        "rsi14": 77,
         "macd": {
-          "macd": 92.2531,
-          "signal": 75.2717,
-          "histogram": 16.9814
+          "macd": 100.4553,
+          "signal": 80.3084,
+          "histogram": 20.1469
         },
-        "priceVs50dma": 6.81,
+        "priceVs50dma": 7.74,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 2.61,
+        "relative": 2.76,
         "momentum": 1.5,
         "technical": 0.5,
         "sentimentAdjusted": 1.5,
-        "total": 6.11
+        "total": 6.26
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
-        "1-month return: +11.7%",
-        "3-month return: +12.1%",
-        "RSI 74 — overbought, momentum may stall soon",
+        "1-month return: +9.4%",
+        "3-month return: +12.0%",
+        "RSI 77 — overbought, momentum may stall soon",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime"
       ],
@@ -826,7 +835,8 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30",
-          "2026-05-01"
+          "2026-05-01",
+          "2026-05-05"
         ],
         "prices": [
           4451,
@@ -914,7 +924,8 @@
           5039,
           5108,
           5163,
-          5195
+          5195,
+          5247
         ],
         "rsiDates": [
           "2026-01-19",
@@ -988,7 +999,8 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30",
-          "2026-05-01"
+          "2026-05-01",
+          "2026-05-05"
         ],
         "rsi": [
           73.72,
@@ -1062,7 +1074,8 @@
           64.66,
           69.53,
           72.75,
-          74.44
+          74.44,
+          76.95
         ],
         "macdHistory": [
           {
@@ -1369,6 +1382,11 @@
             "macd": 92.25308162156398,
             "signal": 75.2716501412471,
             "histogram": 16.981431480316886
+          },
+          {
+            "macd": 100.4552890189716,
+            "signal": 80.308377916792,
+            "histogram": 20.1469111021796
           }
         ]
       }
@@ -1379,37 +1397,37 @@
       "currency": "GBp",
       "price": 7969,
       "priceGBP": 7969,
-      "marketState": "CLOSED",
+      "marketState": "REGULAR",
       "returns": {
-        "1W": 0.67,
-        "1M": 14.93,
-        "3M": 9.01
+        "1W": 1.98,
+        "1M": 10.98,
+        "3M": 9.45
       },
       "technicals": {
-        "rsi14": 67.6,
+        "rsi14": 69.9,
         "macd": {
-          "macd": 162.6098,
-          "signal": 154.5,
-          "histogram": 8.1097
+          "macd": 167.5642,
+          "signal": 157.1129,
+          "histogram": 10.4513
         },
-        "priceVs50dma": 7.16,
+        "priceVs50dma": 7.92,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 2.07,
+        "relative": 2.32,
         "momentum": 1.5,
-        "technical": 1.5,
+        "technical": 2,
         "sentimentAdjusted": 1.5,
-        "total": 6.57
+        "total": 7.32
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
-        "1-month return: +14.9%",
-        "3-month return: +9.0%",
-        "RSI 68 — healthy upward momentum zone",
-        "MACD positive but decelerating — watch for reversal",
+        "1-month return: +11.0%",
+        "3-month return: +9.5%",
+        "RSI 70 — healthy upward momentum zone",
+        "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime"
       ],
       "chartData": {
@@ -1499,7 +1517,8 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30",
-          "2026-05-01"
+          "2026-05-01",
+          "2026-05-05"
         ],
         "prices": [
           7251,
@@ -1587,7 +1606,8 @@
           7787,
           7843,
           7940,
-          7969
+          7969,
+          8037
         ],
         "rsiDates": [
           "2026-01-19",
@@ -1661,7 +1681,8 @@
           "2026-04-28",
           "2026-04-29",
           "2026-04-30",
-          "2026-05-01"
+          "2026-05-01",
+          "2026-05-05"
         ],
         "rsi": [
           62.64,
@@ -1735,7 +1756,8 @@
           60.84,
           63.06,
           66.6,
-          67.6
+          67.6,
+          69.87
         ],
         "macdHistory": [
           {
@@ -2042,6 +2064,11 @@
             "macd": 162.60976830085565,
             "signal": 154.50002533542778,
             "histogram": 8.10974296542787
+          },
+          {
+            "macd": 167.5642069014948,
+            "signal": 157.11286164864117,
+            "histogram": 10.451345252853628
           }
         ]
       }
