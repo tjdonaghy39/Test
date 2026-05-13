@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-05-13T10:28:42.576Z",
+  "timestamp": "2026-05-13T14:03:35.271Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 17.93,
+      "value": 18.4,
       "band": "MODERATE",
       "score": 1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7400.96,
-      "ma200": 6763.72,
-      "ratio": 1.0942,
+      "value": 7393.96,
+      "ma200": 6768.74,
+      "ratio": 1.0924,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.463,
-      "change21d": 0.207,
-      "growthScore": -1,
+      "value": 4.467,
+      "change21d": 0.185,
+      "growthScore": 0,
       "valueScore": 0,
-      "label": "RISING"
+      "label": "STABLE"
     },
-    "composite": 2,
+    "composite": 3,
     "label": "MILDLY_BULLISH"
   },
   "etfs": [
@@ -30,38 +30,38 @@
       "ticker": "IWFQ.L",
       "name": "iShares MSCI World Quality Factor UCITS ETF",
       "currency": "GBp",
-      "price": 6305,
-      "priceGBP": 6305,
+      "price": 6287.62,
+      "priceGBP": 6287.62,
       "marketState": "REGULAR",
       "returns": {
-        "1W": 0.53,
-        "1M": 4.01,
-        "3M": 3.51
+        "1W": 0.25,
+        "1M": 3.72,
+        "3M": 3.23
       },
       "technicals": {
-        "rsi14": 69.9,
+        "rsi14": 68.4,
         "macd": {
-          "macd": 57.9958,
-          "signal": 55.6961,
-          "histogram": 2.2997
+          "macd": 56.6094,
+          "signal": 55.4188,
+          "histogram": 1.1906
         },
-        "priceVs50dma": 3.78,
+        "priceVs50dma": 3.5,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 0,
         "momentum": 0,
         "technical": 2,
-        "sentimentAdjusted": 0.5,
-        "total": 2.5
+        "sentimentAdjusted": 1.5,
+        "total": 3.5
       },
-      "signal": "HOLD",
+      "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
         "Lagging peers — weakest relative performance",
-        "1-month return: +4.0%",
-        "3-month return: +3.5%",
-        "RSI 70 — healthy upward momentum zone",
+        "1-month return: +3.7%",
+        "3-month return: +3.2%",
+        "RSI 68 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime"
       ],
@@ -246,7 +246,7 @@
           6257,
           6252,
           6254,
-          6305
+          6287.6201171875
         ],
         "rsiDates": [
           "2026-01-23",
@@ -400,7 +400,7 @@
           65.61,
           64.68,
           64.89,
-          69.91
+          68.37
         ],
         "macdHistory": [
           {
@@ -719,9 +719,9 @@
             "histogram": 0.3529906577007722
           },
           {
-            "macd": 57.995830181009296,
-            "signal": 55.6960999081946,
-            "histogram": 2.299730272814699
+            "macd": 56.609400782861485,
+            "signal": 55.41881402856503,
+            "histogram": 1.1905867542964543
           }
         ]
       }
@@ -730,39 +730,39 @@
       "ticker": "IWFV.L",
       "name": "iShares MSCI World Value Factor UCITS ETF",
       "currency": "GBp",
-      "price": 5622,
-      "priceGBP": 5622,
+      "price": 5591,
+      "priceGBP": 5591,
       "marketState": "REGULAR",
       "returns": {
-        "1W": 3.92,
-        "1M": 15.56,
-        "3M": 15.77
+        "1W": 3.35,
+        "1M": 14.92,
+        "3M": 15.14
       },
       "technicals": {
-        "rsi14": 80.7,
+        "rsi14": 79.9,
         "macd": {
-          "macd": 180.4068,
-          "signal": 138.86,
-          "histogram": 41.5468
+          "macd": 177.9339,
+          "signal": 138.3654,
+          "histogram": 39.5685
         },
-        "priceVs50dma": 13.83,
+        "priceVs50dma": 13.22,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 3,
         "momentum": 2,
-        "technical": 0.5,
-        "sentimentAdjusted": 1,
-        "total": 6.5
+        "technical": -0.5,
+        "sentimentAdjusted": 1.5,
+        "total": 6
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
-        "1-month return: +15.6%",
-        "3-month return: +15.8%",
-        "RSI 81 — overbought, momentum may stall soon",
-        "MACD histogram positive and widening — bullish acceleration",
+        "1-month return: +14.9%",
+        "3-month return: +15.1%",
+        "RSI 80 — overbought, momentum may stall soon",
+        "MACD positive but decelerating — watch for reversal",
         "S&P 500 well above 200dMA — supportive bull regime"
       ],
       "chartData": {
@@ -946,7 +946,7 @@
           5455,
           5573,
           5507,
-          5622
+          5591
         ],
         "rsiDates": [
           "2026-01-23",
@@ -1100,7 +1100,7 @@
           82.21,
           85.16,
           77.43,
-          80.72
+          79.93
         ],
         "macdHistory": [
           {
@@ -1419,9 +1419,9 @@
             "histogram": 39.799433672637974
           },
           {
-            "macd": 180.40678850334552,
-            "signal": 138.85997674893687,
-            "histogram": 41.54681175440865
+            "macd": 177.93385403041157,
+            "signal": 138.3653898543501,
+            "histogram": 39.56846417606147
           }
         ]
       }
@@ -1430,38 +1430,38 @@
       "ticker": "IWFM.L",
       "name": "iShares MSCI World Momentum Factor UCITS ETF",
       "currency": "GBp",
-      "price": 8538,
-      "priceGBP": 8538,
+      "price": 8464.557,
+      "priceGBP": 8464.56,
       "marketState": "REGULAR",
       "returns": {
-        "1W": 3.17,
-        "1M": 11.94,
-        "3M": 14.34
+        "1W": 2.28,
+        "1M": 10.98,
+        "3M": 13.36
       },
       "technicals": {
-        "rsi14": 75.2,
+        "rsi14": 73.7,
         "macd": {
-          "macd": 246.0121,
-          "signal": 206.8783,
-          "histogram": 39.1339
+          "macd": 240.1534,
+          "signal": 205.7065,
+          "histogram": 34.4469
         },
-        "priceVs50dma": 13.09,
+        "priceVs50dma": 12.14,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 2.36,
+        "relative": 2.19,
         "momentum": 1,
         "technical": 0.5,
-        "sentimentAdjusted": 0.5,
-        "total": 4.36
+        "sentimentAdjusted": 1.5,
+        "total": 5.19
       },
-      "signal": "BUY",
-      "confidence": "MEDIUM",
+      "signal": "STRONG BUY",
+      "confidence": "HIGH",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
-        "1-month return: +11.9%",
-        "3-month return: +14.3%",
-        "RSI 75 — overbought, momentum may stall soon",
+        "1-month return: +11.0%",
+        "3-month return: +13.4%",
+        "RSI 74 — overbought, momentum may stall soon",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime"
       ],
@@ -1646,7 +1646,7 @@
           8272,
           8423,
           8337,
-          8538
+          8464.556640625
         ],
         "rsiDates": [
           "2026-01-23",
@@ -1800,7 +1800,7 @@
           72.68,
           76.13,
           70.66,
-          75.15
+          73.68
         ],
         "macdHistory": [
           {
@@ -2119,9 +2119,9 @@
             "histogram": 32.652699255394566
           },
           {
-            "macd": 246.01211460648574,
-            "signal": 206.87825292792928,
-            "histogram": 39.13386167855646
+            "macd": 240.15338508369405,
+            "signal": 205.70650702337093,
+            "histogram": 34.446878060323115
           }
         ]
       }
