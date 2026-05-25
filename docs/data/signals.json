@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-05-25T14:31:19.050Z",
+  "timestamp": "2026-05-25T18:06:27.626Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 16.67,
+      "value": 16.59,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
@@ -64,7 +64,7 @@
         "RSI 74 — overbought, momentum may stall soon",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.67 — low fear, supportive risk environment"
+        "VIX 16.59 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -756,7 +756,7 @@
         "RSI 75 — overbought, momentum may stall soon",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.67 — low fear, supportive risk environment"
+        "VIX 16.59 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1448,7 +1448,7 @@
         "RSI 66 — healthy upward momentum zone",
         "MACD negative but histogram recovering",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.67 — low fear, supportive risk environment"
+        "VIX 16.59 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
