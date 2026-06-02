@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-06-02T15:56:27.676Z",
+  "timestamp": "2026-06-02T19:54:59.575Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 16.02,
+      "value": 15.85,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7615.37,
-      "ma200": 6842.23,
-      "ratio": 1.113,
+      "value": 7611.92,
+      "ma200": 6842.21,
+      "ratio": 1.1125,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.449,
-      "change21d": 0.003,
+      "value": 4.455,
+      "change21d": 0.009,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6416,
       "priceGBP": 6416,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -0.39,
         "1M": 3.89,
@@ -65,7 +65,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.02 — low fear, supportive risk environment"
+        "VIX 15.85 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -725,7 +725,7 @@
       "currency": "GBp",
       "price": 6041,
       "priceGBP": 6041,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 2.63,
         "1M": 17.01,
@@ -757,7 +757,7 @@
         "RSI 82 — overbought, momentum may stall soon",
         "MACD positive but decelerating — watch for reversal",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.02 — low fear, supportive risk environment"
+        "VIX 15.85 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1417,7 +1417,7 @@
       "currency": "GBp",
       "price": 8799,
       "priceGBP": 8799,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 1.27,
         "1M": 10.82,
@@ -1449,7 +1449,7 @@
         "RSI 70 — overbought, momentum may stall soon",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.02 — low fear, supportive risk environment"
+        "VIX 15.85 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
