@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-06-16T16:20:38.672Z",
+  "timestamp": "2026-06-16T19:53:57.565Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 15.86,
+      "value": 16.21,
       "band": "LOW",
       "score": 2,
-      "trendBonus": 1
+      "trendBonus": 0
     },
     "gspc": {
-      "value": 7545.43,
-      "ma200": 6887.32,
-      "ratio": 1.0956,
+      "value": 7515.08,
+      "ma200": 6892.43,
+      "ratio": 1.0903,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.43,
-      "change21d": -0.165,
+      "value": 4.428,
+      "change21d": -0.167,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
     },
-    "composite": 5,
+    "composite": 4,
     "label": "BULLISH"
   },
   "etfs": [
@@ -52,11 +52,11 @@
         "relative": 0,
         "momentum": 0.5,
         "technical": 2,
-        "sentimentAdjusted": 2.5,
-        "total": 5
+        "sentimentAdjusted": 2,
+        "total": 4.5
       },
-      "signal": "STRONG BUY",
-      "confidence": "HIGH",
+      "signal": "BUY",
+      "confidence": "MEDIUM",
       "reasons": [
         "Lagging peers — weakest relative performance",
         "1-month return: +2.4%",
@@ -64,7 +64,7 @@
         "RSI 69 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX declining — fear receding, conditions improving"
+        "VIX 16.21 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -744,8 +744,8 @@
         "relative": 2.48,
         "momentum": 1.5,
         "technical": 1.5,
-        "sentimentAdjusted": 2.5,
-        "total": 7.98
+        "sentimentAdjusted": 2,
+        "total": 7.48
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
@@ -756,7 +756,7 @@
         "RSI 66 — healthy upward momentum zone",
         "MACD negative but histogram recovering",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX declining — fear receding, conditions improving"
+        "VIX 16.21 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1436,8 +1436,8 @@
         "relative": 2.74,
         "momentum": 1.5,
         "technical": 2,
-        "sentimentAdjusted": 2.5,
-        "total": 8.74
+        "sentimentAdjusted": 2,
+        "total": 8.24
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
@@ -1448,7 +1448,7 @@
         "RSI 66 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX declining — fear receding, conditions improving"
+        "VIX 16.21 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
