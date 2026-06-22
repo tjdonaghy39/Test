@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-06-22T16:25:33.975Z",
+  "timestamp": "2026-06-22T19:52:12.194Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 17.57,
+      "value": 17.49,
       "band": "MODERATE",
       "score": 1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7474.44,
+      "value": 7474.12,
       "ma200": 6907.76,
       "ratio": 1.082,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.511,
-      "change21d": -0.075,
+      "value": 4.509,
+      "change21d": -0.077,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
