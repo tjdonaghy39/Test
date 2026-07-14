@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T09:58:45.076Z",
+  "timestamp": "2026-07-14T13:03:45.128Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
@@ -16,8 +16,8 @@
       "bearCross": false
     },
     "tnx": {
-      "value": 4.609,
-      "change21d": 0.146,
+      "value": 4.567,
+      "change21d": 0.08,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
@@ -34,33 +34,33 @@
       "priceGBP": 6599,
       "marketState": "REGULAR",
       "returns": {
-        "1W": 0.47,
-        "1M": 0.39,
-        "3M": 7.6
+        "1W": 0.64,
+        "1M": 0.56,
+        "3M": 7.79
       },
       "technicals": {
-        "rsi14": 55.8,
+        "rsi14": 57.2,
         "macd": {
-          "macd": 36.4708,
-          "signal": 44.8443,
-          "histogram": -8.3735
+          "macd": 37.3613,
+          "signal": 45.0224,
+          "histogram": -7.6611
         },
-        "priceVs50dma": 1.88,
+        "priceVs50dma": 2.05,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 1.05,
         "momentum": 1.5,
-        "technical": 1,
+        "technical": 1.5,
         "sentimentAdjusted": 1.5,
-        "total": 5.05
+        "total": 5.55
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
       "reasons": [
-        "1-month return: +0.4%",
-        "3-month return: +7.6%",
-        "RSI 56 — healthy upward momentum zone",
+        "1-month return: +0.6%",
+        "3-month return: +7.8%",
+        "RSI 57 — healthy upward momentum zone",
         "MACD negative but histogram recovering",
         "S&P 500 well above 200dMA — supportive bull regime"
       ],
@@ -243,7 +243,7 @@
           6562,
           6579,
           6599,
-          6577.8369140625
+          6589
         ],
         "rsiDates": [
           "2026-03-27",
@@ -395,7 +395,7 @@
           55.04,
           56.65,
           58.53,
-          55.77
+          57.19
         ],
         "macdHistory": [
           {
@@ -709,9 +709,9 @@
             "histogram": -8.431713342911259
           },
           {
-            "macd": 36.47080502254903,
-            "signal": 44.844338584147756,
-            "histogram": -8.373533561598727
+            "macd": 37.36130760445849,
+            "signal": 45.022439100529645,
+            "histogram": -7.661131496071157
           }
         ]
       }
@@ -724,34 +724,34 @@
       "priceGBP": 5848,
       "marketState": "REGULAR",
       "returns": {
-        "1W": 0.93,
-        "1M": -3.27,
-        "3M": 18.63
+        "1W": 1.54,
+        "1M": -2.69,
+        "3M": 19.34
       },
       "technicals": {
-        "rsi14": 48.2,
+        "rsi14": 50.5,
         "macd": {
-          "macd": -0.0053,
-          "signal": 26.8135,
-          "histogram": -26.8188
+          "macd": 2.7867,
+          "signal": 27.3719,
+          "histogram": -24.5852
         },
-        "priceVs50dma": 0.34,
+        "priceVs50dma": 0.93,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.56,
-        "momentum": 1.5,
+        "relative": 1.51,
+        "momentum": 1,
         "technical": 0,
         "sentimentAdjusted": 1.5,
-        "total": 4.56
+        "total": 4.01
       },
       "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
         "Above-average relative performance vs peers",
-        "1-month return: -3.3%",
-        "3-month return: +18.6%",
-        "RSI 48 — neutral zone",
+        "1-month return: -2.7%",
+        "3-month return: +19.3%",
+        "RSI 50 — neutral zone",
         "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 well above 200dMA — supportive bull regime"
@@ -935,7 +935,7 @@
           5888,
           5875,
           5848,
-          5851
+          5886
         ],
         "rsiDates": [
           "2026-03-27",
@@ -1087,7 +1087,7 @@
           50.37,
           49.6,
           47.96,
-          48.17
+          50.45
         ],
         "macdHistory": [
           {
@@ -1401,9 +1401,9 @@
             "histogram": -30.545039865732257
           },
           {
-            "macd": -0.005322481268194679,
-            "signal": 26.813460272465697,
-            "histogram": -26.818782753733892
+            "macd": 2.786700310753986,
+            "signal": 27.371864830870134,
+            "histogram": -24.585164520116148
           }
         ]
       }
@@ -1416,34 +1416,34 @@
       "priceGBP": 8713,
       "marketState": "REGULAR",
       "returns": {
-        "1W": 1.75,
-        "1M": -3.63,
-        "3M": 12.96
+        "1W": 2.81,
+        "1M": -2.62,
+        "3M": 14.14
       },
       "technicals": {
-        "rsi14": 46.6,
+        "rsi14": 49.2,
         "macd": {
-          "macd": -10.8695,
-          "signal": 56.1787,
-          "histogram": -67.0482
+          "macd": -3.6103,
+          "signal": 57.6305,
+          "histogram": -61.2408
         },
-        "priceVs50dma": -0.1,
+        "priceVs50dma": 0.92,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.33,
-        "momentum": 1.5,
+        "relative": 1.43,
+        "momentum": 2,
         "technical": 0,
         "sentimentAdjusted": 1.5,
-        "total": 4.33
+        "total": 4.93
       },
       "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
         "Above-average relative performance vs peers",
-        "1-month return: -3.6%",
-        "3-month return: +13.0%",
-        "RSI 47 — neutral zone",
+        "1-month return: -2.6%",
+        "3-month return: +14.1%",
+        "RSI 49 — neutral zone",
         "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 well above 200dMA — supportive bull regime"
@@ -1627,7 +1627,7 @@
           8856,
           8788.5,
           8713,
-          8741
+          8832
         ],
         "rsiDates": [
           "2026-03-27",
@@ -1779,7 +1779,7 @@
           49.39,
           47.68,
           45.78,
-          46.63
+          49.22
         ],
         "macdHistory": [
           {
@@ -2093,9 +2093,9 @@
             "histogram": -73.94223930355905
           },
           {
-            "macd": -10.8695498137713,
-            "signal": 56.17867891198965,
-            "histogram": -67.04822872576095
+            "macd": -3.6102905545121757,
+            "signal": 57.63053076384148,
+            "histogram": -61.24082131835365
           }
         ]
       }
