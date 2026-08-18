@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-08-18T08:37:04.175Z",
+  "timestamp": "2026-08-18T12:21:07.588Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 16.02,
+      "value": 15.66,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
@@ -30,22 +30,22 @@
       "ticker": "IWFQ.L",
       "name": "iShares MSCI World Quality Factor UCITS ETF",
       "currency": "GBp",
-      "price": 6660.826,
-      "priceGBP": 6660.83,
+      "price": 6662.6,
+      "priceGBP": 6662.6,
       "marketState": "REGULAR",
       "returns": {
-        "1W": -0.82,
-        "1M": 1.86,
-        "3M": 5.23
+        "1W": -0.8,
+        "1M": 1.89,
+        "3M": 5.25
       },
       "technicals": {
-        "rsi14": 52.9,
+        "rsi14": 53.1,
         "macd": {
-          "macd": 43.1073,
-          "signal": 41.6755,
-          "histogram": 1.4318
+          "macd": 43.2488,
+          "signal": 41.7038,
+          "histogram": 1.545
         },
-        "priceVs50dma": 1.16,
+        "priceVs50dma": 1.19,
         "priceVs200dma": null
       },
       "scores": {
@@ -60,11 +60,11 @@
       "reasons": [
         "Lagging peers — weakest relative performance",
         "1-month return: +1.9%",
-        "3-month return: +5.2%",
+        "3-month return: +5.3%",
         "RSI 53 — neutral zone",
         "MACD positive but decelerating — watch for reversal",
         "Recent week negative despite positive 1-month — momentum decelerating",
-        "VIX 16.02 — low fear, supportive risk environment"
+        "VIX 15.66 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -249,7 +249,7 @@
           6717,
           6742,
           6714,
-          6660.826171875
+          6662.60009765625
         ],
         "rsiDates": [
           "2026-04-30",
@@ -405,7 +405,7 @@
           62.37,
           64.64,
           60.25,
-          52.92
+          53.13
         ],
         "macdHistory": [
           {
@@ -729,9 +729,9 @@
             "histogram": 7.519586879954531
           },
           {
-            "macd": 43.107299638797485,
-            "signal": 41.67550085864106,
-            "histogram": 1.4317987801564271
+            "macd": 43.248809387728215,
+            "signal": 41.7038028084272,
+            "histogram": 1.5450065793010168
           }
         ]
       }
@@ -740,40 +740,40 @@
       "ticker": "IWFV.L",
       "name": "iShares MSCI World Value Factor UCITS ETF",
       "currency": "GBp",
-      "price": 6015,
-      "priceGBP": 6015,
+      "price": 6033,
+      "priceGBP": 6033,
       "marketState": "REGULAR",
       "returns": {
-        "1W": 1.31,
-        "1M": 5.42,
-        "3M": 9.34
+        "1W": 1.62,
+        "1M": 5.73,
+        "3M": 9.67
       },
       "technicals": {
-        "rsi14": 59.3,
+        "rsi14": 61.3,
         "macd": {
-          "macd": 46.9786,
-          "signal": 29.171,
-          "histogram": 17.8076
+          "macd": 48.4145,
+          "signal": 29.4582,
+          "histogram": 18.9563
         },
-        "priceVs50dma": 1.74,
+        "priceVs50dma": 2.04,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 2.75,
+        "relative": 2.82,
         "momentum": 1.5,
-        "technical": 1,
+        "technical": 1.5,
         "sentimentAdjusted": 1,
-        "total": 6.25
+        "total": 6.82
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
-        "1-month return: +5.4%",
-        "3-month return: +9.3%",
-        "RSI 59 — healthy upward momentum zone",
+        "1-month return: +5.7%",
+        "3-month return: +9.7%",
+        "RSI 61 — healthy upward momentum zone",
         "MACD positive but decelerating — watch for reversal",
-        "VIX 16.02 — low fear, supportive risk environment"
+        "VIX 15.66 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -958,7 +958,7 @@
           6007,
           6073,
           6053,
-          6015
+          6033
         ],
         "rsiDates": [
           "2026-04-30",
@@ -1114,7 +1114,7 @@
           61.69,
           66.08,
           63.69,
-          59.32
+          61.31
         ],
         "macdHistory": [
           {
@@ -1438,9 +1438,9 @@
             "histogram": 21.25363994019555
           },
           {
-            "macd": 46.978620134381345,
-            "signal": 29.17104174552484,
-            "histogram": 17.807578388856506
+            "macd": 48.414517570278804,
+            "signal": 29.458221232704332,
+            "histogram": 18.95629633757447
           }
         ]
       }
@@ -1449,40 +1449,40 @@
       "ticker": "IWFM.L",
       "name": "iShares MSCI World Momentum Factor UCITS ETF",
       "currency": "GBp",
-      "price": 8753,
-      "priceGBP": 8753,
+      "price": 8751,
+      "priceGBP": 8751,
       "marketState": "REGULAR",
       "returns": {
-        "1W": 2.4,
-        "1M": 4.86,
-        "3M": 6.41
+        "1W": 2.37,
+        "1M": 4.84,
+        "3M": 6.38
       },
       "technicals": {
         "rsi14": 54.9,
         "macd": {
-          "macd": 13.6975,
-          "signal": -31.5194,
-          "histogram": 45.2169
+          "macd": 13.538,
+          "signal": -31.5513,
+          "histogram": 45.0893
         },
-        "priceVs50dma": -0.12,
+        "priceVs50dma": -0.14,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.98,
+        "relative": 1.86,
         "momentum": 1.5,
         "technical": 0,
         "sentimentAdjusted": 1,
-        "total": 4.48
+        "total": 4.36
       },
       "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
         "Above-average relative performance vs peers",
-        "1-month return: +4.9%",
+        "1-month return: +4.8%",
         "3-month return: +6.4%",
         "RSI 55 — neutral zone",
         "MACD positive but decelerating — watch for reversal",
-        "VIX 16.02 — low fear, supportive risk environment"
+        "VIX 15.66 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1667,7 +1667,7 @@
           8727,
           8805,
           8740,
-          8753
+          8751
         ],
         "rsiDates": [
           "2026-04-30",
@@ -1823,7 +1823,7 @@
           54.67,
           57.11,
           54.48,
-          54.93
+          54.86
         ],
         "macdHistory": [
           {
@@ -2147,9 +2147,9 @@
             "histogram": 46.557820904880785
           },
           {
-            "macd": 13.697508539944465,
-            "signal": -31.519407878825916,
-            "histogram": 45.21691641877038
+            "macd": 13.537964380402627,
+            "signal": -31.551316710734284,
+            "histogram": 45.08928109113691
           }
         ]
       }
