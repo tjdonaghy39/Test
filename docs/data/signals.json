@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-27T21:24:11.664Z",
+  "timestamp": "2026-08-28T01:01:13.585Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
@@ -32,37 +32,38 @@
       "currency": "GBp",
       "price": 6668,
       "priceGBP": 6668,
-      "marketState": "POSTPOST",
+      "marketState": "PREPRE",
       "returns": {
-        "1W": 0.01,
-        "1M": 0.89,
-        "3M": 3.65
+        "1W": -0.09,
+        "1M": 0.79,
+        "3M": 3.54
       },
       "technicals": {
-        "rsi14": 53.7,
+        "rsi14": 52.8,
         "macd": {
-          "macd": 15.678,
-          "signal": 25.7677,
-          "histogram": -10.0898
+          "macd": 15.1196,
+          "signal": 25.656,
+          "histogram": -10.5365
         },
-        "priceVs50dma": 0.9,
+        "priceVs50dma": 0.8,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.8,
+        "relative": 1.39,
         "momentum": 0.5,
         "technical": 0,
         "sentimentAdjusted": 2,
-        "total": 4.3
+        "total": 3.89
       },
       "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
         "Above-average relative performance vs peers",
-        "1-month return: +0.9%",
-        "3-month return: +3.7%",
-        "RSI 54 — neutral zone",
+        "1-month return: +0.8%",
+        "3-month return: +3.5%",
+        "RSI 53 — neutral zone",
         "MACD negative but histogram recovering",
+        "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
         "VIX 14.51 — low fear, supportive risk environment"
       ],
@@ -158,7 +159,7 @@
           "2026-08-21",
           "2026-08-24",
           "2026-08-25",
-          "2026-08-27"
+          "2026-08-26"
         ],
         "prices": [
           6214,
@@ -251,7 +252,7 @@
           6635,
           6625,
           6653,
-          6668
+          6661
         ],
         "rsiDates": [
           "2026-05-11",
@@ -330,7 +331,7 @@
           "2026-08-21",
           "2026-08-24",
           "2026-08-25",
-          "2026-08-27"
+          "2026-08-26"
         ],
         "rsi": [
           57.98,
@@ -409,7 +410,7 @@
           49.32,
           48.06,
           51.77,
-          53.69
+          52.81
         ],
         "macdHistory": [
           {
@@ -738,9 +739,9 @@
             "histogram": -12.241815143759176
           },
           {
-            "macd": 15.677959721280786,
-            "signal": 25.767712911942027,
-            "histogram": -10.089753190661241
+            "macd": 15.119555162876168,
+            "signal": 25.656032000261103,
+            "histogram": -10.536476837384935
           }
         ]
       }
@@ -751,37 +752,37 @@
       "currency": "GBp",
       "price": 5983,
       "priceGBP": 5983,
-      "marketState": "POSTPOST",
+      "marketState": "PREPRE",
       "returns": {
-        "1W": 0.22,
-        "1M": 2.38,
-        "3M": 0.22
+        "1W": 0.62,
+        "1M": 2.79,
+        "3M": 0.62
       },
       "technicals": {
-        "rsi14": 53.5,
+        "rsi14": 55.4,
         "macd": {
-          "macd": 30.4505,
-          "signal": 35.0416,
-          "histogram": -4.5911
+          "macd": 32.3651,
+          "signal": 35.4245,
+          "histogram": -3.0595
         },
-        "priceVs50dma": 1.03,
+        "priceVs50dma": 1.43,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.85,
+        "relative": 1.94,
         "momentum": 1.5,
-        "technical": -1,
+        "technical": 1,
         "sentimentAdjusted": 2,
-        "total": 4.35
+        "total": 6.44
       },
-      "signal": "BUY",
-      "confidence": "MEDIUM",
+      "signal": "STRONG BUY",
+      "confidence": "HIGH",
       "reasons": [
         "Above-average relative performance vs peers",
-        "1-month return: +2.4%",
-        "3-month return: +0.2%",
-        "RSI 53 — neutral zone",
-        "MACD histogram negative and widening — bearish momentum",
+        "1-month return: +2.8%",
+        "3-month return: +0.6%",
+        "RSI 55 — healthy upward momentum zone",
+        "MACD negative but histogram recovering",
         "S&P 500 well above 200dMA — supportive bull regime",
         "VIX 14.51 — low fear, supportive risk environment"
       ],
@@ -877,7 +878,7 @@
           "2026-08-21",
           "2026-08-24",
           "2026-08-25",
-          "2026-08-27"
+          "2026-08-26"
         ],
         "prices": [
           5017,
@@ -970,7 +971,7 @@
           6019,
           5940,
           5985,
-          5983
+          6007
         ],
         "rsiDates": [
           "2026-05-11",
@@ -1049,7 +1050,7 @@
           "2026-08-21",
           "2026-08-24",
           "2026-08-25",
-          "2026-08-27"
+          "2026-08-26"
         ],
         "rsi": [
           91.62,
@@ -1128,7 +1129,7 @@
           57.39,
           50.04,
           53.68,
-          53.49
+          55.39
         ],
         "macdHistory": [
           {
@@ -1457,9 +1458,9 @@
             "histogram": -3.8003272319511936
           },
           {
-            "macd": 30.450524614116148,
-            "signal": 35.04163246567923,
-            "histogram": -4.5911078515630805
+            "macd": 32.36505452864549,
+            "signal": 35.424538448585096,
+            "histogram": -3.059483919939609
           }
         ]
       }
@@ -1470,36 +1471,36 @@
       "currency": "GBp",
       "price": 8487,
       "priceGBP": 8487,
-      "marketState": "POSTPOST",
+      "marketState": "PREPRE",
       "returns": {
-        "1W": -0.78,
-        "1M": 3.2,
-        "3M": -1.62
+        "1W": -0.34,
+        "1M": 3.66,
+        "3M": -1.18
       },
       "technicals": {
-        "rsi14": 46.1,
+        "rsi14": 47.4,
         "macd": {
-          "macd": -31.5126,
-          "signal": -18.6546,
-          "histogram": -12.858
+          "macd": -28.4812,
+          "signal": -18.0483,
+          "histogram": -10.4329
         },
-        "priceVs50dma": -2.73,
+        "priceVs50dma": -2.3,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 1.05,
         "momentum": 1.5,
-        "technical": -1.5,
+        "technical": -0.5,
         "sentimentAdjusted": 2,
-        "total": 3.05
+        "total": 4.05
       },
-      "signal": "HOLD",
+      "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
-        "1-month return: +3.2%",
-        "3-month return: -1.6%",
-        "RSI 46 — neutral zone",
-        "MACD histogram negative and widening — bearish momentum",
+        "1-month return: +3.7%",
+        "3-month return: -1.2%",
+        "RSI 47 — neutral zone",
+        "MACD negative but histogram recovering",
         "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
         "VIX 14.51 — low fear, supportive risk environment"
@@ -1596,7 +1597,7 @@
           "2026-08-21",
           "2026-08-24",
           "2026-08-25",
-          "2026-08-27"
+          "2026-08-26"
         ],
         "prices": [
           7822,
@@ -1689,7 +1690,7 @@
           8546,
           8408,
           8511,
-          8487
+          8525
         ],
         "rsiDates": [
           "2026-05-11",
@@ -1768,7 +1769,7 @@
           "2026-08-21",
           "2026-08-24",
           "2026-08-25",
-          "2026-08-27"
+          "2026-08-26"
         ],
         "rsi": [
           77.15,
@@ -1847,7 +1848,7 @@
           47.28,
           42.95,
           46.86,
-          46.07
+          47.39
         ],
         "macdHistory": [
           {
@@ -2176,9 +2177,9 @@
             "histogram": -11.465219675973074
           },
           {
-            "macd": -31.512587457311383,
-            "signal": -18.65457350223945,
-            "histogram": -12.858013955071932
+            "macd": -28.48124842597099,
+            "signal": -18.048305695971372,
+            "histogram": -10.432942729999617
           }
         ]
       }
