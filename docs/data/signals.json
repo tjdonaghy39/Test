@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-09-14T17:11:08.588Z",
+  "timestamp": "2026-09-14T20:21:37.214Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 16.65,
-      "band": "LOW",
-      "score": 2,
+      "value": 17.11,
+      "band": "MODERATE",
+      "score": 1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7637.67,
-      "ma200": 7167.21,
-      "ratio": 1.0656,
+      "value": 7619.98,
+      "ma200": 7167.13,
+      "ratio": 1.0632,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.938,
-      "change21d": 0.242,
+      "value": 4.961,
+      "change21d": 0.265,
       "growthScore": -1,
       "valueScore": 0,
       "label": "RISING"
     },
-    "composite": 3,
+    "composite": 2,
     "label": "MILDLY_BULLISH"
   },
   "etfs": [
@@ -52,11 +52,11 @@
         "relative": 2.16,
         "momentum": 2,
         "technical": 0,
-        "sentimentAdjusted": 1,
-        "total": 5.16
+        "sentimentAdjusted": 0.5,
+        "total": 4.66
       },
-      "signal": "STRONG BUY",
-      "confidence": "HIGH",
+      "signal": "BUY",
+      "confidence": "MEDIUM",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
         "1-month return: -2.6%",
@@ -64,8 +64,7 @@
         "RSI 43 — neutral zone",
         "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.65 — low fear, supportive risk environment"
+        "S&P 500 well above 200dMA — supportive bull regime"
       ],
       "chartData": {
         "dates": [
@@ -772,11 +771,11 @@
         "relative": 2.55,
         "momentum": 1.5,
         "technical": -0.5,
-        "sentimentAdjusted": 1.5,
-        "total": 5.05
+        "sentimentAdjusted": 1,
+        "total": 4.55
       },
-      "signal": "STRONG BUY",
-      "confidence": "HIGH",
+      "signal": "BUY",
+      "confidence": "MEDIUM",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
         "1-month return: +0.1%",
@@ -784,8 +783,7 @@
         "RSI 54 — neutral zone",
         "MACD histogram negative and widening — bearish momentum",
         "Recent week negative despite positive 1-month — momentum decelerating",
-        "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.65 — low fear, supportive risk environment"
+        "S&P 500 well above 200dMA — supportive bull regime"
       ],
       "chartData": {
         "dates": [
@@ -1492,11 +1490,11 @@
         "relative": 0,
         "momentum": 1,
         "technical": 0,
-        "sentimentAdjusted": 1,
-        "total": 2
+        "sentimentAdjusted": 0.5,
+        "total": 1.5
       },
       "signal": "HOLD",
-      "confidence": "MEDIUM",
+      "confidence": "LOW",
       "reasons": [
         "Lagging peers — weakest relative performance",
         "1-month return: -3.8%",
@@ -1504,8 +1502,7 @@
         "RSI 45 — neutral zone",
         "MACD positive but decelerating — watch for reversal",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.65 — low fear, supportive risk environment"
+        "S&P 500 well above 200dMA — supportive bull regime"
       ],
       "chartData": {
         "dates": [
