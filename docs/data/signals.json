@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-09-15T15:51:17.189Z",
+  "timestamp": "2026-09-15T19:44:45.804Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 17.65,
+      "value": 17.48,
       "band": "MODERATE",
       "score": 1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7584.28,
-      "ma200": 7171.22,
-      "ratio": 1.0576,
+      "value": 7578.99,
+      "ma200": 7171.19,
+      "ratio": 1.0569,
       "score": 2,
       "bearCross": false
     },
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6541,
       "priceGBP": 6541,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -1.45,
         "1M": -2.98,
@@ -49,11 +49,11 @@
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 2.1,
+        "relative": 2.11,
         "momentum": 2,
         "technical": -1,
         "sentimentAdjusted": 0.5,
-        "total": 3.6
+        "total": 3.61
       },
       "signal": "BUY",
       "confidence": "MEDIUM",
@@ -742,7 +742,7 @@
       "currency": "GBp",
       "price": 6065,
       "priceGBP": 6065,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -2.05,
         "1M": -0.13,
@@ -759,11 +759,11 @@
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 2.61,
+        "relative": 2.63,
         "momentum": 1.5,
         "technical": -0.5,
         "sentimentAdjusted": 1,
-        "total": 4.61
+        "total": 4.63
       },
       "signal": "BUY",
       "confidence": "MEDIUM",
@@ -1449,22 +1449,22 @@
       "ticker": "IWFM.L",
       "name": "iShares MSCI World Momentum Factor UCITS ETF",
       "currency": "GBp",
-      "price": 8445,
-      "priceGBP": 8445,
-      "marketState": "POST",
+      "price": 8439,
+      "priceGBP": 8439,
+      "marketState": "POSTPOST",
       "returns": {
-        "1W": -2.6,
-        "1M": -4.09,
-        "3M": -6.48
+        "1W": -2.66,
+        "1M": -4.16,
+        "3M": -6.54
       },
       "technicals": {
-        "rsi14": 44.3,
+        "rsi14": 44.1,
         "macd": {
-          "macd": -5.2009,
-          "signal": -10.306,
-          "histogram": 5.1051
+          "macd": -5.6796,
+          "signal": -10.4018,
+          "histogram": 4.7222
         },
-        "priceVs50dma": -1.53,
+        "priceVs50dma": -1.6,
         "priceVs200dma": null
       },
       "scores": {
@@ -1478,7 +1478,7 @@
       "confidence": "LOW",
       "reasons": [
         "Lagging peers — weakest relative performance",
-        "1-month return: -4.1%",
+        "1-month return: -4.2%",
         "3-month return: -6.5%",
         "RSI 44 — neutral zone",
         "MACD positive but decelerating — watch for reversal",
@@ -1668,7 +1668,7 @@
           8672,
           8573,
           8645,
-          8445
+          8439
         ],
         "rsiDates": [
           "2026-05-29",
@@ -1824,7 +1824,7 @@
           54.48,
           49.65,
           52.92,
-          44.31
+          44.1
         ],
         "macdHistory": [
           {
@@ -2148,9 +2148,9 @@
             "histogram": 18.587840659593972
           },
           {
-            "macd": -5.200936904057016,
-            "signal": -10.306030827196142,
-            "histogram": 5.105093923139126
+            "macd": -5.679569382687987,
+            "signal": -10.401757322922338,
+            "histogram": 4.722187940234351
           }
         ]
       }
