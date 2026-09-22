@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-22T15:53:30.945Z",
+  "timestamp": "2026-09-22T19:47:44.654Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 14.36,
+      "value": 14.2,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7759.7,
-      "ma200": 7192.28,
-      "ratio": 1.0789,
+      "value": 7776.08,
+      "ma200": 7192.36,
+      "ratio": 1.0812,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.972,
-      "change21d": 0.268,
+      "value": 4.968,
+      "change21d": 0.264,
       "growthScore": -1,
       "valueScore": 0,
       "label": "RISING"
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6725,
       "priceGBP": 6725,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 2.37,
         "1M": 1.63,
@@ -49,11 +49,11 @@
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.29,
+        "relative": 1.27,
         "momentum": 1,
         "technical": 2,
         "sentimentAdjusted": 1,
-        "total": 5.29
+        "total": 5.27
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
@@ -64,7 +64,7 @@
         "RSI 61 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 14.36 — low fear, supportive risk environment"
+        "VIX 14.2 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -740,41 +740,41 @@
       "ticker": "IWFV.L",
       "name": "iShares MSCI World Value Factor UCITS ETF",
       "currency": "GBp",
-      "price": 6200,
-      "priceGBP": 6200,
-      "marketState": "POST",
+      "price": 6207,
+      "priceGBP": 6207,
+      "marketState": "POSTPOST",
       "returns": {
-        "1W": 1.96,
-        "1M": 4.03,
-        "3M": 3.26
+        "1W": 2.07,
+        "1M": 4.14,
+        "3M": 3.38
       },
       "technicals": {
-        "rsi14": 60.6,
+        "rsi14": 61,
         "macd": {
-          "macd": 45.2809,
-          "signal": 44.3459,
-          "histogram": 0.935
+          "macd": 45.8393,
+          "signal": 44.4576,
+          "histogram": 1.3817
         },
-        "priceVs50dma": 3.81,
+        "priceVs50dma": 3.93,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.87,
+        "relative": 1.93,
         "momentum": 0.5,
         "technical": 2,
         "sentimentAdjusted": 1.5,
-        "total": 5.87
+        "total": 5.93
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
       "reasons": [
         "Above-average relative performance vs peers",
-        "1-month return: +4.0%",
-        "3-month return: +3.3%",
+        "1-month return: +4.1%",
+        "3-month return: +3.4%",
         "RSI 61 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 14.36 — low fear, supportive risk environment"
+        "VIX 14.2 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -959,7 +959,7 @@
           6090,
           6175,
           6096,
-          6200
+          6207
         ],
         "rsiDates": [
           "2026-06-05",
@@ -1115,7 +1115,7 @@
           54.73,
           61.24,
           53.53,
-          60.57
+          60.96
         ],
         "macdHistory": [
           {
@@ -1439,9 +1439,9 @@
             "histogram": -3.984055416378567
           },
           {
-            "macd": 45.28086974888811,
-            "signal": 44.34587084406917,
-            "histogram": 0.93499890481894
+            "macd": 45.839274307292726,
+            "signal": 44.45755175575009,
+            "histogram": 1.3817225515426372
           }
         ]
       }
@@ -1452,7 +1452,7 @@
       "currency": "GBp",
       "price": 8929,
       "priceGBP": 8929,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 5.42,
         "1M": 5.03,
@@ -1484,7 +1484,7 @@
         "RSI 63 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 14.36 — low fear, supportive risk environment"
+        "VIX 14.2 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
