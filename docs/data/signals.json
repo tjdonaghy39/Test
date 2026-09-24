@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-09-24T16:04:12.621Z",
+  "timestamp": "2026-09-24T20:02:19.719Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 16.21,
+      "value": 15.46,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7668.52,
-      "ma200": 7196.07,
-      "ratio": 1.0657,
+      "value": 7704.23,
+      "ma200": 7196.25,
+      "ratio": 1.0706,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 5.16,
-      "change21d": 0.521,
+      "value": 5.162,
+      "change21d": 0.523,
       "growthScore": -2,
       "valueScore": 1,
       "label": "SHARPLY_RISING"
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6728,
       "priceGBP": 6728,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 2.22,
         "1M": 1.55,
@@ -64,7 +64,7 @@
         "RSI 61 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.21 — low fear, supportive risk environment",
+        "VIX 15.46 — low fear, supportive risk environment",
         "Rising yields headwind for quality/momentum factor"
       ],
       "chartData": {
@@ -752,7 +752,7 @@
       "currency": "GBp",
       "price": 6157,
       "priceGBP": 6157,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 1.1,
         "1M": 3.65,
@@ -784,7 +784,7 @@
         "RSI 56 — healthy upward momentum zone",
         "MACD positive but decelerating — watch for reversal",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.21 — low fear, supportive risk environment",
+        "VIX 15.46 — low fear, supportive risk environment",
         "Rising yields relatively supportive for value factor"
       ],
       "chartData": {
@@ -1472,7 +1472,7 @@
       "currency": "GBp",
       "price": 8900,
       "priceGBP": 8900,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 4.09,
         "1M": 5.85,
@@ -1504,7 +1504,7 @@
         "RSI 62 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.21 — low fear, supportive risk environment",
+        "VIX 15.46 — low fear, supportive risk environment",
         "Rising yields headwind for quality/momentum factor"
       ],
       "chartData": {
