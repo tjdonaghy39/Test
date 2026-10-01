@@ -1,71 +1,71 @@
 {
-  "timestamp": "2026-10-01T15:09:38.044Z",
-  "marketRegime": "NEUTRAL",
+  "timestamp": "2026-10-01T17:39:24.456Z",
+  "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 17.34,
-      "band": "MODERATE",
-      "score": 1,
+      "value": 16.52,
+      "band": "LOW",
+      "score": 2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7621.75,
-      "ma200": 7221.06,
-      "ratio": 1.0555,
+      "value": 7672.53,
+      "ma200": 7221.32,
+      "ratio": 1.0625,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 5.304,
-      "change21d": 0.508,
-      "growthScore": -2,
-      "valueScore": 1,
-      "label": "SHARPLY_RISING"
+      "value": 5.213,
+      "change21d": 0.417,
+      "growthScore": -1,
+      "valueScore": 0,
+      "label": "RISING"
     },
-    "composite": 1,
-    "label": "NEUTRAL"
+    "composite": 3,
+    "label": "MILDLY_BULLISH"
   },
   "etfs": [
     {
       "ticker": "IWFQ.L",
       "name": "iShares MSCI World Quality Factor UCITS ETF",
       "currency": "GBp",
-      "price": 6730,
-      "priceGBP": 6730,
-      "marketState": "REGULAR",
+      "price": 6732,
+      "priceGBP": 6732,
+      "marketState": "POSTPOST",
       "returns": {
-        "1W": -0.12,
-        "1M": 1.82,
-        "3M": 2.23
+        "1W": -0.09,
+        "1M": 1.85,
+        "3M": 2.26
       },
       "technicals": {
-        "rsi14": 58,
+        "rsi14": 58.3,
         "macd": {
-          "macd": 30.7627,
-          "signal": 16.5348,
-          "histogram": 14.228
+          "macd": 30.9223,
+          "signal": 16.5667,
+          "histogram": 14.3556
         },
-        "priceVs50dma": 1.23,
+        "priceVs50dma": 1.26,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.61,
+        "relative": 1.63,
         "momentum": 1,
         "technical": 1,
-        "sentimentAdjusted": -0.5,
-        "total": 3.11
+        "sentimentAdjusted": 1,
+        "total": 4.63
       },
-      "signal": "HOLD",
+      "signal": "BUY",
       "confidence": "MEDIUM",
       "reasons": [
         "Above-average relative performance vs peers",
         "1-month return: +1.8%",
-        "3-month return: +2.2%",
+        "3-month return: +2.3%",
         "RSI 58 — healthy upward momentum zone",
         "MACD positive but decelerating — watch for reversal",
         "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "Rising yields headwind for quality/momentum factor"
+        "VIX 16.52 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -252,7 +252,7 @@
           6757,
           6732,
           6756,
-          6730
+          6732
         ],
         "rsiDates": [
           "2026-06-15",
@@ -410,7 +410,7 @@
           63.18,
           59.53,
           61.81,
-          58
+          58.28
         ],
         "macdHistory": [
           {
@@ -739,9 +739,9 @@
             "histogram": 17.110963445762252
           },
           {
-            "macd": 30.762723815070785,
-            "signal": 16.534751685129095,
-            "histogram": 14.22797212994169
+            "macd": 30.92226797461535,
+            "signal": 16.566660517038006,
+            "histogram": 14.355607457577346
           }
         ]
       }
@@ -752,7 +752,7 @@
       "currency": "GBp",
       "price": 6058,
       "priceGBP": 6058,
-      "marketState": "REGULAR",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -2.57,
         "1M": 0.25,
@@ -772,8 +772,8 @@
         "relative": 1.2,
         "momentum": 0,
         "technical": -1,
-        "sentimentAdjusted": 1,
-        "total": 1.2
+        "sentimentAdjusted": 1.5,
+        "total": 1.7
       },
       "signal": "HOLD",
       "confidence": "LOW",
@@ -785,7 +785,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "Rising yields relatively supportive for value factor"
+        "VIX 16.52 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1470,42 +1470,41 @@
       "ticker": "IWFM.L",
       "name": "iShares MSCI World Momentum Factor UCITS ETF",
       "currency": "GBp",
-      "price": 8944,
-      "priceGBP": 8944,
-      "marketState": "REGULAR",
+      "price": 8945,
+      "priceGBP": 8945,
+      "marketState": "POSTPOST",
       "returns": {
-        "1W": -0.01,
-        "1M": 6.49,
-        "3M": 0.86
+        "1W": 0,
+        "1M": 6.5,
+        "3M": 0.87
       },
       "technicals": {
         "rsi14": 60.1,
         "macd": {
-          "macd": 99.9888,
-          "signal": 70.5831,
-          "histogram": 29.4057
+          "macd": 100.0686,
+          "signal": 70.5991,
+          "histogram": 29.4695
         },
-        "priceVs50dma": 3.81,
+        "priceVs50dma": 3.82,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 1.8,
         "momentum": 2,
         "technical": 1.5,
-        "sentimentAdjusted": -0.5,
-        "total": 4.8
+        "sentimentAdjusted": 1,
+        "total": 6.3
       },
-      "signal": "BUY",
-      "confidence": "MEDIUM",
+      "signal": "STRONG BUY",
+      "confidence": "HIGH",
       "reasons": [
         "Above-average relative performance vs peers",
         "1-month return: +6.5%",
         "3-month return: +0.9%",
         "RSI 60 — healthy upward momentum zone",
         "MACD positive but decelerating — watch for reversal",
-        "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "Rising yields headwind for quality/momentum factor"
+        "VIX 16.52 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1692,7 +1691,7 @@
           8992,
           8869,
           8955,
-          8944
+          8945
         ],
         "rsiDates": [
           "2026-06-15",
@@ -1850,7 +1849,7 @@
           64.3,
           57.58,
           60.68,
-          60.07
+          60.13
         ],
         "macdHistory": [
           {
@@ -2179,9 +2178,9 @@
             "histogram": 34.22503746886881
           },
           {
-            "macd": 99.98879657403268,
-            "signal": 70.58311333917297,
-            "histogram": 29.40568323485971
+            "macd": 100.0685686538036,
+            "signal": 70.59906775512715,
+            "histogram": 29.469500898676444
           }
         ]
       }
