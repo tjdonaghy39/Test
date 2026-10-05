@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-05T16:52:15.565Z",
+  "timestamp": "2026-10-05T22:48:06.027Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 15.5,
+      "value": 15.52,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7772.87,
-      "ma200": 7230.68,
-      "ratio": 1.075,
+      "value": 7773.95,
+      "ma200": 7230.69,
+      "ratio": 1.0751,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 5.33,
-      "change21d": 0.546,
+      "value": 5.311,
+      "change21d": 0.527,
       "growthScore": -2,
       "valueScore": 1,
       "label": "SHARPLY_RISING"
@@ -63,7 +63,7 @@
         "RSI 66 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 15.5 — low fear, supportive risk environment",
+        "VIX 15.52 — low fear, supportive risk environment",
         "Rising yields headwind for quality/momentum factor"
       ],
       "chartData": {
@@ -792,7 +792,7 @@
         "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 15.5 — low fear, supportive risk environment",
+        "VIX 15.52 — low fear, supportive risk environment",
         "Rising yields relatively supportive for value factor"
       ],
       "chartData": {
@@ -1521,7 +1521,7 @@
         "RSI 65 — healthy upward momentum zone",
         "MACD histogram positive and widening — bullish acceleration",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 15.5 — low fear, supportive risk environment",
+        "VIX 15.52 — low fear, supportive risk environment",
         "Rising yields headwind for quality/momentum factor"
       ],
       "chartData": {
