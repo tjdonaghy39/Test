@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-08T21:24:49.947Z",
+  "timestamp": "2026-10-09T15:01:18.365Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 15.41,
+      "value": 15.05,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7765.36,
-      "ma200": 7245.96,
-      "ratio": 1.0717,
+      "value": 7799.49,
+      "ma200": 7250.57,
+      "ratio": 1.0757,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 5.231,
-      "change21d": 0.287,
+      "value": 5.274,
+      "change21d": 0.299,
       "growthScore": -1,
       "valueScore": 0,
       "label": "RISING"
@@ -30,22 +30,22 @@
       "ticker": "IWFQ.L",
       "name": "iShares MSCI World Quality Factor UCITS ETF",
       "currency": "GBp",
-      "price": 6811,
-      "priceGBP": 6811,
-      "marketState": "POSTPOST",
+      "price": 6837,
+      "priceGBP": 6837,
+      "marketState": "REGULAR",
       "returns": {
-        "1W": 0.78,
-        "1M": 3.04,
-        "3M": 3.79
+        "1W": 1.56,
+        "1M": 4.38,
+        "3M": 3.92
       },
       "technicals": {
-        "rsi14": 63.4,
+        "rsi14": 65.3,
         "macd": {
-          "macd": 47.8787,
-          "signal": 34.2737,
-          "histogram": 13.605
+          "macd": 50.1064,
+          "signal": 37.3509,
+          "histogram": 12.7555
         },
-        "priceVs50dma": 2.1,
+        "priceVs50dma": 2.41,
         "priceVs200dma": null
       },
       "scores": {
@@ -59,12 +59,12 @@
       "confidence": "HIGH",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
-        "1-month return: +3.0%",
-        "3-month return: +3.8%",
-        "RSI 63 — healthy upward momentum zone",
+        "1-month return: +4.4%",
+        "3-month return: +3.9%",
+        "RSI 65 — healthy upward momentum zone",
         "MACD positive but decelerating — watch for reversal",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 15.41 — low fear, supportive risk environment"
+        "VIX 15.05 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -159,7 +159,8 @@
           "2026-10-02",
           "2026-10-05",
           "2026-10-06",
-          "2026-10-08"
+          "2026-10-07",
+          "2026-10-09"
         ],
         "prices": [
           6399,
@@ -253,7 +254,8 @@
           6779,
           6817,
           6837,
-          6811
+          6804,
+          6837
         ],
         "rsiDates": [
           "2026-06-19",
@@ -333,7 +335,8 @@
           "2026-10-02",
           "2026-10-05",
           "2026-10-06",
-          "2026-10-08"
+          "2026-10-07",
+          "2026-10-09"
         ],
         "rsi": [
           70.93,
@@ -413,7 +416,8 @@
           62.73,
           66.08,
           67.72,
-          63.42
+          62.35,
+          65.31
         ],
         "macdHistory": [
           {
@@ -747,9 +751,14 @@
             "histogram": 15.563541263044385
           },
           {
-            "macd": 47.8786842257623,
-            "signal": 34.27365724909132,
-            "histogram": 13.605026976670977
+            "macd": 47.32027966735768,
+            "signal": 34.161976337410394,
+            "histogram": 13.158303329947287
+          },
+          {
+            "macd": 50.106353182066414,
+            "signal": 37.3508517063416,
+            "histogram": 12.755501475724813
           }
         ]
       }
@@ -758,41 +767,41 @@
       "ticker": "IWFV.L",
       "name": "iShares MSCI World Value Factor UCITS ETF",
       "currency": "GBp",
-      "price": 6086,
-      "priceGBP": 6086,
-      "marketState": "POSTPOST",
+      "price": 6066,
+      "priceGBP": 6066,
+      "marketState": "REGULAR",
       "returns": {
-        "1W": -0.83,
-        "1M": -1.04,
-        "3M": 3.36
+        "1W": 0.13,
+        "1M": -0.77,
+        "3M": 3.25
       },
       "technicals": {
-        "rsi14": 48.2,
+        "rsi14": 46.3,
         "macd": {
-          "macd": 15.7026,
-          "signal": 28.0567,
-          "histogram": -12.3542
+          "macd": 12.87,
+          "signal": 25.6193,
+          "histogram": -12.7493
         },
-        "priceVs50dma": 0.61,
+        "priceVs50dma": 0.19,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1,
-        "momentum": 0.5,
+        "relative": 0.99,
+        "momentum": 1,
         "technical": -1,
         "sentimentAdjusted": 1.5,
-        "total": 2
+        "total": 2.49
       },
       "signal": "HOLD",
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "reasons": [
-        "1-month return: -1.0%",
-        "3-month return: +3.4%",
-        "RSI 48 — neutral zone",
+        "1-month return: -0.8%",
+        "3-month return: +3.3%",
+        "RSI 46 — neutral zone",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 15.41 — low fear, supportive risk environment"
+        "VIX 15.05 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -887,7 +896,8 @@
           "2026-10-02",
           "2026-10-05",
           "2026-10-06",
-          "2026-10-08"
+          "2026-10-07",
+          "2026-10-09"
         ],
         "prices": [
           5997,
@@ -981,7 +991,8 @@
           6124,
           6121,
           6138,
-          6086
+          6133,
+          6066
         ],
         "rsiDates": [
           "2026-06-19",
@@ -1061,7 +1072,8 @@
           "2026-10-02",
           "2026-10-05",
           "2026-10-06",
-          "2026-10-08"
+          "2026-10-07",
+          "2026-10-09"
         ],
         "rsi": [
           56.17,
@@ -1141,7 +1153,8 @@
           51.67,
           51.41,
           52.82,
-          48.22
+          52.34,
+          46.27
         ],
         "macdHistory": [
           {
@@ -1475,9 +1488,14 @@
             "histogram": -10.397293983551357
           },
           {
-            "macd": 15.702576599468557,
-            "signal": 28.056728186114135,
-            "histogram": -12.354151586645578
+            "macd": 19.451864348756317,
+            "signal": 28.806585735971687,
+            "histogram": -9.35472138721537
+          },
+          {
+            "macd": 12.869992300968079,
+            "signal": 25.619267048970965,
+            "histogram": -12.749274748002886
           }
         ]
       }
@@ -1486,42 +1504,42 @@
       "ticker": "IWFM.L",
       "name": "iShares MSCI World Momentum Factor UCITS ETF",
       "currency": "GBp",
-      "price": 8968,
-      "priceGBP": 8968,
-      "marketState": "POSTPOST",
+      "price": 8928,
+      "priceGBP": 8928,
+      "marketState": "REGULAR",
       "returns": {
-        "1W": -0.08,
-        "1M": 2.99,
-        "3M": 1.26
+        "1W": -0.19,
+        "1M": 2.95,
+        "3M": 1.59
       },
       "technicals": {
-        "rsi14": 56.8,
+        "rsi14": 54.4,
         "macd": {
-          "macd": 117.7505,
-          "signal": 101.9871,
-          "histogram": 15.7634
+          "macd": 110.2677,
+          "signal": 104.358,
+          "histogram": 5.9097
         },
-        "priceVs50dma": 3.49,
+        "priceVs50dma": 2.82,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.39,
-        "momentum": 1,
-        "technical": 1.5,
+        "relative": 0.76,
+        "momentum": 0.5,
+        "technical": 0.5,
         "sentimentAdjusted": 1,
-        "total": 4.89
+        "total": 2.76
       },
-      "signal": "BUY",
+      "signal": "HOLD",
       "confidence": "MEDIUM",
       "reasons": [
-        "Above-average relative performance vs peers",
+        "Lagging peers — weakest relative performance",
         "1-month return: +3.0%",
-        "3-month return: +1.3%",
-        "RSI 57 — healthy upward momentum zone",
+        "3-month return: +1.6%",
+        "RSI 54 — neutral zone",
         "MACD positive but decelerating — watch for reversal",
         "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 15.41 — low fear, supportive risk environment"
+        "VIX 15.05 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1616,7 +1634,8 @@
           "2026-10-02",
           "2026-10-05",
           "2026-10-06",
-          "2026-10-08"
+          "2026-10-07",
+          "2026-10-09"
         ],
         "prices": [
           8648,
@@ -1710,7 +1729,8 @@
           9069,
           9099,
           9113,
-          8968
+          9024,
+          8928
         ],
         "rsiDates": [
           "2026-06-19",
@@ -1790,7 +1810,8 @@
           "2026-10-02",
           "2026-10-05",
           "2026-10-06",
-          "2026-10-08"
+          "2026-10-07",
+          "2026-10-09"
         ],
         "rsi": [
           68.79,
@@ -1870,7 +1891,8 @@
           64.16,
           65.17,
           65.66,
-          56.81
+          59.93,
+          54.42
         ],
         "macdHistory": [
           {
@@ -2204,9 +2226,14 @@
             "histogram": 27.87191231908085
           },
           {
-            "macd": 117.75050721447042,
-            "signal": 101.98708471850948,
-            "histogram": 15.763422495960938
+            "macd": 122.21774368170554,
+            "signal": 102.8805320119565,
+            "histogram": 19.33721166974904
+          },
+          {
+            "macd": 110.26765721162701,
+            "signal": 104.35795705189061,
+            "histogram": 5.909700159736403
           }
         ]
       }
