@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-12T17:27:53.294Z",
+  "timestamp": "2026-10-12T20:32:43.935Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
@@ -9,9 +9,9 @@
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7803.89,
-      "ma200": 7255.1,
-      "ratio": 1.0756,
+      "value": 7807.24,
+      "ma200": 7255.12,
+      "ratio": 1.0761,
       "score": 2,
       "bearCross": false
     },
