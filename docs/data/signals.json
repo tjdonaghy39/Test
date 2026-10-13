@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-13T18:37:14.441Z",
+  "timestamp": "2026-10-13T21:22:50.360Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 15.44,
+      "value": 15.27,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7804.89,
+      "value": 7805.45,
       "ma200": 7259.48,
-      "ratio": 1.0751,
+      "ratio": 1.0752,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 5.223,
-      "change21d": 0.227,
+      "value": 5.217,
+      "change21d": 0.221,
       "growthScore": -1,
       "valueScore": 0,
       "label": "RISING"
@@ -64,7 +64,7 @@
         "RSI 66 — healthy upward momentum zone",
         "MACD positive but decelerating — watch for reversal",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 15.44 — low fear, supportive risk environment"
+        "VIX 15.27 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -783,7 +783,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 15.44 — low fear, supportive risk environment"
+        "VIX 15.27 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1503,7 +1503,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 15.44 — low fear, supportive risk environment"
+        "VIX 15.27 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
