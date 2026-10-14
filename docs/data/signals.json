@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-10-14T16:06:48.677Z",
+  "timestamp": "2026-10-14T20:15:38.390Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 16.19,
+      "value": 16.8,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7732.14,
-      "ma200": 7263.49,
-      "ratio": 1.0645,
+      "value": 7718.94,
+      "ma200": 7263.43,
+      "ratio": 1.0627,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 5.246,
-      "change21d": 0.24,
-      "growthScore": -1,
+      "value": 5.19,
+      "change21d": 0.184,
+      "growthScore": 0,
       "valueScore": 0,
-      "label": "RISING"
+      "label": "STABLE"
     },
-    "composite": 3,
-    "label": "MILDLY_BULLISH"
+    "composite": 4,
+    "label": "BULLISH"
   },
   "etfs": [
     {
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6874,
       "priceGBP": 6874,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 0.54,
         "1M": 4.64,
@@ -52,8 +52,8 @@
         "relative": 3,
         "momentum": 2,
         "technical": 1.5,
-        "sentimentAdjusted": 1,
-        "total": 7.5
+        "sentimentAdjusted": 2,
+        "total": 8.5
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
@@ -64,7 +64,7 @@
         "RSI 67 — healthy upward momentum zone",
         "MACD positive but decelerating — watch for reversal",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.19 — low fear, supportive risk environment"
+        "VIX 16.8 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -751,7 +751,7 @@
       "currency": "GBp",
       "price": 5999,
       "priceGBP": 5999,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -2.26,
         "1M": -1.35,
@@ -771,8 +771,8 @@
         "relative": 1.31,
         "momentum": 0.5,
         "technical": -1,
-        "sentimentAdjusted": 1.5,
-        "total": 2.31
+        "sentimentAdjusted": 2,
+        "total": 2.81
       },
       "signal": "HOLD",
       "confidence": "MEDIUM",
@@ -783,7 +783,7 @@
         "RSI 41 — neutral zone",
         "MACD histogram negative and widening — bearish momentum",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.19 — low fear, supportive risk environment"
+        "VIX 16.8 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1470,7 +1470,7 @@
       "currency": "GBp",
       "price": 8734,
       "priceGBP": 8734,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -4.16,
         "1M": 3.12,
@@ -1490,11 +1490,11 @@
         "relative": 0.78,
         "momentum": 0.5,
         "technical": -1,
-        "sentimentAdjusted": 1,
-        "total": 1.28
+        "sentimentAdjusted": 2,
+        "total": 2.28
       },
       "signal": "HOLD",
-      "confidence": "LOW",
+      "confidence": "MEDIUM",
       "reasons": [
         "Lagging peers — weakest relative performance",
         "1-month return: +3.1%",
@@ -1503,7 +1503,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.19 — low fear, supportive risk environment"
+        "VIX 16.8 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
