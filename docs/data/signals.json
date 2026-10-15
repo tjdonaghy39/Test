@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-15T15:54:34.285Z",
+  "timestamp": "2026-10-15T19:56:32.600Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 16.84,
+      "value": 16.45,
       "band": "LOW",
       "score": 2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7723.61,
-      "ma200": 7267.52,
-      "ratio": 1.0628,
+      "value": 7745.03,
+      "ma200": 7267.62,
+      "ratio": 1.0657,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 5.098,
-      "change21d": 0.151,
+      "value": 5.089,
+      "change21d": 0.142,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6844,
       "priceGBP": 6844,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 0.59,
         "1M": 4.63,
@@ -64,7 +64,7 @@
         "RSI 62 — healthy upward momentum zone",
         "MACD positive but decelerating — watch for reversal",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.84 — low fear, supportive risk environment"
+        "VIX 16.45 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -760,7 +760,7 @@
       "currency": "GBp",
       "price": 5957,
       "priceGBP": 5957,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -2.87,
         "1M": -1.78,
@@ -792,7 +792,7 @@
         "RSI 37 — neutral zone",
         "MACD histogram negative and widening — bearish momentum",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.84 — low fear, supportive risk environment"
+        "VIX 16.45 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
@@ -1488,7 +1488,7 @@
       "currency": "GBp",
       "price": 8502,
       "priceGBP": 8502,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -5.78,
         "1M": 0.75,
@@ -1521,7 +1521,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Recent week negative despite positive 1-month — momentum decelerating",
         "S&P 500 well above 200dMA — supportive bull regime",
-        "VIX 16.84 — low fear, supportive risk environment"
+        "VIX 16.45 — low fear, supportive risk environment"
       ],
       "chartData": {
         "dates": [
