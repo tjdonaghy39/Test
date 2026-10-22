@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-10-22T16:13:38.180Z",
+  "timestamp": "2026-10-22T20:13:33.938Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 18.39,
+      "value": 19.22,
       "band": "MODERATE",
       "score": 1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7675.05,
-      "ma200": 7287.86,
-      "ratio": 1.0531,
+      "value": 7663.43,
+      "ma200": 7287.8,
+      "ratio": 1.0515,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.998,
-      "change21d": -0.164,
-      "growthScore": 0,
-      "valueScore": 0,
-      "label": "STABLE"
+      "value": 4.953,
+      "change21d": -0.209,
+      "growthScore": 1,
+      "valueScore": -1,
+      "label": "FALLING"
     },
-    "composite": 3,
-    "label": "MILDLY_BULLISH"
+    "composite": 4,
+    "label": "BULLISH"
   },
   "etfs": [
     {
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6734,
       "priceGBP": 6734,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -1.61,
         "1M": -0.06,
@@ -52,8 +52,8 @@
         "relative": 3,
         "momentum": 2,
         "technical": -1,
-        "sentimentAdjusted": 1.5,
-        "total": 5.5
+        "sentimentAdjusted": 2.5,
+        "total": 6.5
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
@@ -768,7 +768,7 @@
       "currency": "GBp",
       "price": 5858,
       "priceGBP": 5858,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -1.66,
         "1M": -5.79,
@@ -1505,7 +1505,7 @@
       "currency": "GBp",
       "price": 8178,
       "priceGBP": 8178,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -3.81,
         "1M": -8.57,
@@ -1525,8 +1525,8 @@
         "relative": 0,
         "momentum": 1,
         "technical": -2,
-        "sentimentAdjusted": 1.5,
-        "total": 0.5
+        "sentimentAdjusted": 2.5,
+        "total": 1.5
       },
       "signal": "HOLD",
       "confidence": "LOW",
