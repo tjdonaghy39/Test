@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-26T17:49:14.374Z",
+  "timestamp": "2026-10-26T21:06:22.205Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 18.3,
+      "value": 18.39,
       "band": "MODERATE",
       "score": 1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7671.12,
-      "ma200": 7295.06,
-      "ratio": 1.0515,
+      "value": 7676.77,
+      "ma200": 7295.09,
+      "ratio": 1.0523,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.98,
-      "change21d": -0.26,
+      "value": 4.986,
+      "change21d": -0.254,
       "growthScore": 1,
       "valueScore": -1,
       "label": "FALLING"
