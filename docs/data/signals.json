@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-10-27T16:58:30.253Z",
+  "timestamp": "2026-10-27T20:48:41.532Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 17.74,
+      "value": 17.52,
       "band": "MODERATE",
       "score": 1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7718.74,
-      "ma200": 7298.85,
-      "ratio": 1.0575,
+      "value": 7722.6,
+      "ma200": 7298.87,
+      "ratio": 1.0581,
       "score": 2,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.995,
-      "change21d": -0.26,
+      "value": 4.993,
+      "change21d": -0.262,
       "growthScore": 1,
       "valueScore": -1,
       "label": "FALLING"
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6757,
       "priceGBP": 6757,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -0.18,
         "1M": 0.37,
@@ -760,7 +760,7 @@
       "currency": "GBp",
       "price": 5971,
       "priceGBP": 5971,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 1.12,
         "1M": -2.55,
@@ -1488,7 +1488,7 @@
       "currency": "GBp",
       "price": 8448,
       "priceGBP": 8448,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": 0.93,
         "1M": -4.75,
