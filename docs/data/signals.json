@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-11-02T17:54:39.391Z",
-  "marketRegime": "RISK_ON",
+  "timestamp": "2026-11-02T20:58:56.762Z",
+  "marketRegime": "NEUTRAL",
   "sentiment": {
     "vix": {
-      "value": 19.65,
-      "band": "MODERATE",
-      "score": 1,
-      "trendBonus": 0
+      "value": 21.67,
+      "band": "ELEVATED",
+      "score": -1,
+      "trendBonus": -1
     },
     "gspc": {
-      "value": 7600.27,
-      "ma200": 7313.04,
-      "ratio": 1.0393,
+      "value": 7540.82,
+      "ma200": 7312.74,
+      "ratio": 1.0312,
       "score": 1,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.88,
-      "change21d": -0.431,
+      "value": 4.894,
+      "change21d": -0.417,
       "growthScore": 1,
       "valueScore": -1,
       "label": "FALLING"
     },
-    "composite": 3,
-    "label": "MILDLY_BULLISH"
+    "composite": 0,
+    "label": "NEUTRAL"
   },
   "etfs": [
     {
@@ -52,8 +52,8 @@
         "relative": 3,
         "momentum": 2.5,
         "technical": 0,
-        "sentimentAdjusted": 2,
-        "total": 7.5
+        "sentimentAdjusted": 0.5,
+        "total": 6
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
@@ -63,7 +63,8 @@
         "3-month return: +0.7%",
         "RSI 48 — neutral zone",
         "MACD negative but histogram recovering",
-        "Short-term momentum accelerating above medium-term pace — emerging trend"
+        "Short-term momentum accelerating above medium-term pace — emerging trend",
+        "VIX spiking — fear rising fast, monitor closely"
       ],
       "chartData": {
         "dates": [
@@ -779,10 +780,10 @@
         "relative": 2.02,
         "momentum": 2,
         "technical": -1.5,
-        "sentimentAdjusted": 1,
-        "total": 3.52
+        "sentimentAdjusted": -0.5,
+        "total": 2.02
       },
-      "signal": "BUY",
+      "signal": "HOLD",
       "confidence": "MEDIUM",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
@@ -790,7 +791,8 @@
         "3-month return: -1.6%",
         "RSI 36 — neutral zone",
         "MACD histogram negative and widening — bearish momentum",
-        "Short-term momentum accelerating above medium-term pace — emerging trend"
+        "Short-term momentum accelerating above medium-term pace — emerging trend",
+        "VIX spiking — fear rising fast, monitor closely"
       ],
       "chartData": {
         "dates": [
@@ -1506,10 +1508,10 @@
         "relative": 0,
         "momentum": 1,
         "technical": -2,
-        "sentimentAdjusted": 2,
-        "total": 1
+        "sentimentAdjusted": 0.5,
+        "total": -0.5
       },
-      "signal": "HOLD",
+      "signal": "SELL",
       "confidence": "LOW",
       "reasons": [
         "Lagging peers — weakest relative performance",
@@ -1517,7 +1519,8 @@
         "3-month return: -7.0%",
         "RSI 32 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
-        "Short-term momentum accelerating above medium-term pace — emerging trend"
+        "Short-term momentum accelerating above medium-term pace — emerging trend",
+        "VIX spiking — fear rising fast, monitor closely"
       ],
       "chartData": {
         "dates": [
