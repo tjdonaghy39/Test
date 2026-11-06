@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-11-06T18:38:31.768Z",
+  "timestamp": "2026-11-06T21:40:32.476Z",
   "marketRegime": "NEUTRAL",
   "sentiment": {
     "vix": {
-      "value": 25.66,
+      "value": 25.64,
       "band": "HIGH",
       "score": -2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7400.35,
-      "ma200": 7325.17,
-      "ratio": 1.0103,
+      "value": 7376.86,
+      "ma200": 7325.05,
+      "ratio": 1.0071,
       "score": 1,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.839,
-      "change21d": -0.405,
+      "value": 4.859,
+      "change21d": -0.385,
       "growthScore": 1,
       "valueScore": -1,
       "label": "FALLING"
@@ -64,7 +64,7 @@
         "RSI 41 — neutral zone",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "VIX 25.66 — elevated fear, risk appetite suppressed"
+        "VIX 25.64 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -810,7 +810,7 @@
         "RSI 26 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "VIX 25.66 — elevated fear, risk appetite suppressed"
+        "VIX 25.64 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -1556,7 +1556,7 @@
         "RSI 22 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "VIX 25.66 — elevated fear, risk appetite suppressed"
+        "VIX 25.64 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
