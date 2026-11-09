@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-11-09T18:25:16.645Z",
-  "marketRegime": "NEUTRAL",
+  "timestamp": "2026-11-09T21:42:37.812Z",
+  "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 20.23,
-      "band": "ELEVATED",
-      "score": -1,
+      "value": 19.92,
+      "band": "MODERATE",
+      "score": 1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7542.15,
-      "ma200": 7328.19,
-      "ratio": 1.0292,
+      "value": 7549.94,
+      "ma200": 7328.22,
+      "ratio": 1.0303,
       "score": 1,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.872,
-      "change21d": -0.368,
+      "value": 4.864,
+      "change21d": -0.376,
       "growthScore": 1,
       "valueScore": -1,
       "label": "FALLING"
     },
-    "composite": 1,
-    "label": "NEUTRAL"
+    "composite": 3,
+    "label": "MILDLY_BULLISH"
   },
   "etfs": [
     {
@@ -52,8 +52,8 @@
         "relative": 3,
         "momentum": 2.5,
         "technical": 0,
-        "sentimentAdjusted": 1,
-        "total": 6.5
+        "sentimentAdjusted": 2,
+        "total": 7.5
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
@@ -779,8 +779,8 @@
         "relative": 1.91,
         "momentum": 2,
         "technical": -1.5,
-        "sentimentAdjusted": 0,
-        "total": 2.41
+        "sentimentAdjusted": 1,
+        "total": 3.41
       },
       "signal": "HOLD",
       "confidence": "MEDIUM",
@@ -1506,8 +1506,8 @@
         "relative": 0,
         "momentum": 1,
         "technical": -1.5,
-        "sentimentAdjusted": 1,
-        "total": 0.5
+        "sentimentAdjusted": 2,
+        "total": 1.5
       },
       "signal": "HOLD",
       "confidence": "LOW",
