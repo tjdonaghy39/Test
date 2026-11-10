@@ -1,68 +1,68 @@
 {
-  "timestamp": "2026-11-10T00:19:51.606Z",
-  "marketRegime": "RISK_ON",
+  "timestamp": "2026-11-10T16:09:39.952Z",
+  "marketRegime": "NEUTRAL",
   "sentiment": {
     "vix": {
-      "value": 19.92,
-      "band": "MODERATE",
-      "score": 1,
+      "value": 21,
+      "band": "ELEVATED",
+      "score": -1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7549.94,
-      "ma200": 7328.22,
-      "ratio": 1.0303,
+      "value": 7502.43,
+      "ma200": 7330.99,
+      "ratio": 1.0234,
       "score": 1,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.864,
-      "change21d": -0.376,
+      "value": 4.992,
+      "change21d": -0.225,
       "growthScore": 1,
       "valueScore": -1,
       "label": "FALLING"
     },
-    "composite": 3,
-    "label": "MILDLY_BULLISH"
+    "composite": 1,
+    "label": "NEUTRAL"
   },
   "etfs": [
     {
       "ticker": "IWFQ.L",
       "name": "iShares MSCI World Quality Factor UCITS ETF",
       "currency": "GBp",
-      "price": 6701,
-      "priceGBP": 6701,
-      "marketState": "PREPRE",
+      "price": 6709.1,
+      "priceGBP": 6709.1,
+      "marketState": "REGULAR",
       "returns": {
-        "1W": -1.06,
-        "1M": -2.44,
-        "3M": -1.06
+        "1W": 0.24,
+        "1M": -2.67,
+        "3M": -0.12
       },
       "technicals": {
-        "rsi14": 40.5,
+        "rsi14": 47.3,
         "macd": {
-          "macd": -14.827,
-          "signal": 0.7062,
-          "histogram": -15.5332
+          "macd": -15.5576,
+          "signal": -5.1714,
+          "histogram": -10.3862
         },
-        "priceVs50dma": -1.1,
+        "priceVs50dma": -0.17,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 3,
-        "momentum": 2.5,
-        "technical": -1,
-        "sentimentAdjusted": 2,
-        "total": 6.5
+        "momentum": 3,
+        "technical": 0,
+        "sentimentAdjusted": 1,
+        "total": 7
       },
       "signal": "STRONG BUY",
       "confidence": "HIGH",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
-        "1-month return: -2.4%",
-        "3-month return: -1.1%",
-        "RSI 41 — neutral zone",
-        "MACD histogram negative and widening — bearish momentum",
+        "1-month return: -2.7%",
+        "3-month return: -0.1%",
+        "RSI 47 — neutral zone",
+        "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend"
       ],
       "chartData": {
@@ -156,7 +156,9 @@
           "2026-11-03",
           "2026-11-04",
           "2026-11-05",
-          "2026-11-06"
+          "2026-11-06",
+          "2026-11-09",
+          "2026-11-10"
         ],
         "prices": [
           6627,
@@ -248,7 +250,9 @@
           6693,
           6794,
           6664,
-          6645
+          6645,
+          6701,
+          6709.10009765625
         ],
         "rsiDates": [
           "2026-07-23",
@@ -326,7 +330,9 @@
           "2026-11-03",
           "2026-11-04",
           "2026-11-05",
-          "2026-11-06"
+          "2026-11-06",
+          "2026-11-09",
+          "2026-11-10"
         ],
         "rsi": [
           39.77,
@@ -404,7 +410,9 @@
           42.03,
           54.55,
           41.98,
-          40.51
+          40.51,
+          46.46,
+          47.28
         ],
         "macdHistory": [
           {
@@ -731,6 +739,16 @@
             "macd": -14.827004259887872,
             "signal": 0.7062268839242276,
             "histogram": -15.533231143812099
+          },
+          {
+            "macd": -15.699270028597311,
+            "signal": -2.5748724985800804,
+            "histogram": -13.12439753001723
+          },
+          {
+            "macd": -15.557598438585046,
+            "signal": -5.171417686581074,
+            "histogram": -10.386180752003973
           }
         ]
       }
@@ -739,39 +757,39 @@
       "ticker": "IWFV.L",
       "name": "iShares MSCI World Value Factor UCITS ETF",
       "currency": "GBp",
-      "price": 5713,
-      "priceGBP": 5713,
-      "marketState": "PREPRE",
+      "price": 5709.945,
+      "priceGBP": 5709.94,
+      "marketState": "REGULAR",
       "returns": {
-        "1W": -3.44,
-        "1M": -7.25,
-        "3M": -4.92
+        "1W": -1.57,
+        "1M": -5.48,
+        "3M": -4.95
       },
       "technicals": {
-        "rsi14": 25.8,
+        "rsi14": 33.7,
         "macd": {
-          "macd": -82.3738,
-          "signal": -58.4933,
-          "histogram": -23.8805
+          "macd": -87.2233,
+          "signal": -68.5608,
+          "histogram": -18.6625
         },
-        "priceVs50dma": -6.39,
+        "priceVs50dma": -5.1,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.94,
+        "relative": 1.79,
         "momentum": 2,
-        "technical": -2,
-        "sentimentAdjusted": 1,
-        "total": 2.94
+        "technical": -1.5,
+        "sentimentAdjusted": 0,
+        "total": 2.29
       },
       "signal": "HOLD",
       "confidence": "MEDIUM",
       "reasons": [
         "Above-average relative performance vs peers",
-        "1-month return: -7.2%",
+        "1-month return: -5.5%",
         "3-month return: -4.9%",
-        "RSI 26 — momentum weakening",
-        "MACD histogram negative and widening — bearish momentum",
+        "RSI 34 — momentum weakening",
+        "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend"
       ],
       "chartData": {
@@ -865,7 +883,9 @@
           "2026-11-03",
           "2026-11-04",
           "2026-11-05",
-          "2026-11-06"
+          "2026-11-06",
+          "2026-11-09",
+          "2026-11-10"
         ],
         "prices": [
           5880,
@@ -957,7 +977,9 @@
           5801,
           5828,
           5683,
-          5645
+          5645,
+          5713,
+          5709.94482421875
         ],
         "rsiDates": [
           "2026-07-23",
@@ -1035,7 +1057,9 @@
           "2026-11-03",
           "2026-11-04",
           "2026-11-05",
-          "2026-11-06"
+          "2026-11-06",
+          "2026-11-09",
+          "2026-11-10"
         ],
         "rsi": [
           49.33,
@@ -1113,7 +1137,9 @@
           32.58,
           36.23,
           27.59,
-          25.84
+          25.84,
+          33.88,
+          33.71
         ],
         "macdHistory": [
           {
@@ -1440,6 +1466,16 @@
             "macd": -82.37380708788169,
             "signal": -58.49329301394535,
             "histogram": -23.88051407393634
+          },
+          {
+            "macd": -85.50262097901577,
+            "signal": -63.895158606959434,
+            "histogram": -21.60746237205634
+          },
+          {
+            "macd": -87.2232997767951,
+            "signal": -68.56078684092657,
+            "histogram": -18.662512935868534
           }
         ]
       }
@@ -1448,39 +1484,39 @@
       "ticker": "IWFM.L",
       "name": "iShares MSCI World Momentum Factor UCITS ETF",
       "currency": "GBp",
-      "price": 7692,
-      "priceGBP": 7692,
-      "marketState": "PREPRE",
+      "price": 7719,
+      "priceGBP": 7719,
+      "marketState": "REGULAR",
       "returns": {
-        "1W": -7.25,
-        "1M": -16.38,
-        "3M": -12.27
+        "1W": -2.98,
+        "1M": -13,
+        "3M": -11.55
       },
       "technicals": {
-        "rsi14": 22.3,
+        "rsi14": 32.6,
         "macd": {
-          "macd": -272.4325,
-          "signal": -181.4082,
-          "histogram": -91.0243
+          "macd": -277.419,
+          "signal": -216.0993,
+          "histogram": -61.3197
         },
-        "priceVs50dma": -12.53,
+        "priceVs50dma": -9.65,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 0,
         "momentum": 1,
-        "technical": -2,
-        "sentimentAdjusted": 2,
-        "total": 1
+        "technical": -1.5,
+        "sentimentAdjusted": 1,
+        "total": 0.5
       },
       "signal": "HOLD",
       "confidence": "LOW",
       "reasons": [
         "Lagging peers — weakest relative performance",
-        "1-month return: -16.4%",
-        "3-month return: -12.3%",
-        "RSI 22 — momentum weakening",
-        "MACD histogram negative and widening — bearish momentum",
+        "1-month return: -13.0%",
+        "3-month return: -11.6%",
+        "RSI 33 — momentum weakening",
+        "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend"
       ],
       "chartData": {
@@ -1574,7 +1610,9 @@
           "2026-11-03",
           "2026-11-04",
           "2026-11-05",
-          "2026-11-06"
+          "2026-11-06",
+          "2026-11-09",
+          "2026-11-10"
         ],
         "prices": [
           8973,
@@ -1666,7 +1704,9 @@
           7956,
           7830,
           7499,
-          7499
+          7499,
+          7692,
+          7719
         ],
         "rsiDates": [
           "2026-07-23",
@@ -1744,7 +1784,9 @@
           "2026-11-03",
           "2026-11-04",
           "2026-11-05",
-          "2026-11-06"
+          "2026-11-06",
+          "2026-11-09",
+          "2026-11-10"
         ],
         "rsi": [
           43.3,
@@ -1822,7 +1864,9 @@
           30.43,
           27.8,
           22.34,
-          22.34
+          22.34,
+          31.45,
+          32.64
         ],
         "macdHistory": [
           {
@@ -2149,6 +2193,16 @@
             "macd": -272.43249862505036,
             "signal": -181.40821501990038,
             "histogram": -91.02428360514998
+          },
+          {
+            "macd": -278.2138420338897,
+            "signal": -200.76934042269824,
+            "histogram": -77.44450161119147
+          },
+          {
+            "macd": -277.419010322481,
+            "signal": -216.09927440265477,
+            "histogram": -61.3197359198262
           }
         ]
       }
