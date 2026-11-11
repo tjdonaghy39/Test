@@ -1,17 +1,17 @@
 {
-  "timestamp": "2026-11-11T18:58:03.934Z",
+  "timestamp": "2026-11-11T22:52:42.690Z",
   "marketRegime": "RISK_ON",
   "sentiment": {
     "vix": {
-      "value": 17.34,
+      "value": 17.49,
       "band": "MODERATE",
       "score": 1,
       "trendBonus": 1
     },
     "gspc": {
-      "value": 7644.4,
-      "ma200": 7334.41,
-      "ratio": 1.0423,
+      "value": 7619.38,
+      "ma200": 7334.28,
+      "ratio": 1.0389,
       "score": 1,
       "bearCross": false
     },
