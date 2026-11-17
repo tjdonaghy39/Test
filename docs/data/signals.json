@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-11-17T17:25:48.483Z",
+  "timestamp": "2026-11-17T20:10:48.142Z",
   "marketRegime": "RISK_OFF",
   "sentiment": {
     "vix": {
-      "value": 25.43,
+      "value": 26.57,
       "band": "HIGH",
       "score": -2,
       "trendBonus": -1
     },
     "gspc": {
-      "value": 7361.93,
-      "ma200": 7344.63,
-      "ratio": 1.0024,
-      "score": 1,
-      "bearCross": false
+      "value": 7311.07,
+      "ma200": 7344.38,
+      "ratio": 0.9955,
+      "score": 0,
+      "bearCross": true
     },
     "tnx": {
-      "value": 5.099,
-      "change21d": -0.018,
+      "value": 5.101,
+      "change21d": -0.016,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
     },
-    "composite": -2,
+    "composite": -3,
     "label": "CAUTIOUS"
   },
   "etfs": [
@@ -52,19 +52,21 @@
         "relative": 2.69,
         "momentum": 2,
         "technical": -1,
-        "sentimentAdjusted": -1,
-        "total": 2.69
+        "sentimentAdjusted": -1.5,
+        "total": 2.19
       },
-      "signal": "HOLD",
-      "confidence": "MEDIUM",
+      "signal": "SELL",
+      "confidence": "HIGH",
       "reasons": [
+        "OVERRIDE: S&P 500 crossed below 200dMA — market in bear regime, rotating out",
         "Strongest relative performer vs peers across 1W/1M/3M",
         "1-month return: -2.8%",
         "3-month return: -0.8%",
         "RSI 40 — neutral zone",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "VIX 25.43 — elevated fear, risk appetite suppressed"
+        "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
+        "VIX 26.57 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -780,19 +782,21 @@
         "relative": 2.22,
         "momentum": 2.5,
         "technical": -2,
-        "sentimentAdjusted": -1,
-        "total": 1.72
+        "sentimentAdjusted": -1.5,
+        "total": 1.22
       },
-      "signal": "HOLD",
-      "confidence": "LOW",
+      "signal": "SELL",
+      "confidence": "HIGH",
       "reasons": [
+        "OVERRIDE: S&P 500 crossed below 200dMA — market in bear regime, rotating out",
         "Strongest relative performer vs peers across 1W/1M/3M",
         "1-month return: -4.8%",
         "3-month return: -5.4%",
         "RSI 35 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "VIX 25.43 — elevated fear, risk appetite suppressed"
+        "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
+        "VIX 26.57 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -1508,19 +1512,21 @@
         "relative": 0,
         "momentum": 1,
         "technical": -2,
-        "sentimentAdjusted": -1,
-        "total": -2
+        "sentimentAdjusted": -1.5,
+        "total": -2.5
       },
       "signal": "SELL",
-      "confidence": "LOW",
+      "confidence": "HIGH",
       "reasons": [
+        "OVERRIDE: S&P 500 crossed below 200dMA — market in bear regime, rotating out",
         "Lagging peers — weakest relative performance",
         "1-month return: -10.9%",
         "3-month return: -11.6%",
         "RSI 34 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "VIX 25.43 — elevated fear, risk appetite suppressed"
+        "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
+        "VIX 26.57 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
