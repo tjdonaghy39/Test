@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-11-18T16:58:52.756Z",
-  "marketRegime": "RISK_OFF",
+  "timestamp": "2026-11-18T19:42:21.160Z",
+  "marketRegime": "NEUTRAL",
   "sentiment": {
     "vix": {
-      "value": 25.29,
-      "band": "HIGH",
-      "score": -2,
+      "value": 24.28,
+      "band": "ELEVATED",
+      "score": -1,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7306.79,
-      "ma200": 7346.47,
-      "ratio": 0.9946,
+      "value": 7319.4,
+      "ma200": 7346.53,
+      "ratio": 0.9963,
       "score": 0,
       "bearCross": true
     },
     "tnx": {
-      "value": 5.07,
-      "change21d": -0.076,
+      "value": 5.068,
+      "change21d": -0.078,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
     },
-    "composite": -2,
-    "label": "CAUTIOUS"
+    "composite": -1,
+    "label": "NEUTRAL"
   },
   "etfs": [
     {
@@ -32,7 +32,7 @@
       "currency": "GBp",
       "price": 6627,
       "priceGBP": 6627,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -2.53,
         "1M": -2.1,
@@ -52,8 +52,8 @@
         "relative": 3,
         "momentum": 2,
         "technical": -1,
-        "sentimentAdjusted": -1,
-        "total": 3
+        "sentimentAdjusted": -0.5,
+        "total": 3.5
       },
       "signal": "SELL",
       "confidence": "HIGH",
@@ -65,8 +65,7 @@
         "RSI 41 — neutral zone",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 25.29 — elevated fear, risk appetite suppressed"
+        "ALERT: S&P 500 crossed below its 200-day MA — bear regime"
       ],
       "chartData": {
         "dates": [
@@ -762,7 +761,7 @@
       "currency": "GBp",
       "price": 5623,
       "priceGBP": 5623,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -4.34,
         "1M": -4.78,
@@ -782,8 +781,8 @@
         "relative": 1.54,
         "momentum": 2,
         "technical": -2,
-        "sentimentAdjusted": -1,
-        "total": 0.54
+        "sentimentAdjusted": -0.5,
+        "total": 1.04
       },
       "signal": "SELL",
       "confidence": "HIGH",
@@ -795,8 +794,7 @@
         "RSI 34 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 25.29 — elevated fear, risk appetite suppressed"
+        "ALERT: S&P 500 crossed below its 200-day MA — bear regime"
       ],
       "chartData": {
         "dates": [
@@ -1492,7 +1490,7 @@
       "currency": "GBp",
       "price": 7575,
       "priceGBP": 7575,
-      "marketState": "POST",
+      "marketState": "POSTPOST",
       "returns": {
         "1W": -5.56,
         "1M": -9.5,
@@ -1512,8 +1510,8 @@
         "relative": 0,
         "momentum": 1,
         "technical": -2,
-        "sentimentAdjusted": -1,
-        "total": -2
+        "sentimentAdjusted": -0.5,
+        "total": -1.5
       },
       "signal": "SELL",
       "confidence": "HIGH",
@@ -1525,8 +1523,7 @@
         "RSI 34 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
-        "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 25.29 — elevated fear, risk appetite suppressed"
+        "ALERT: S&P 500 crossed below its 200-day MA — bear regime"
       ],
       "chartData": {
         "dates": [
