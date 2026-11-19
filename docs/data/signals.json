@@ -1,29 +1,29 @@
 {
-  "timestamp": "2026-11-19T19:42:44.034Z",
+  "timestamp": "2026-11-19T23:07:26.700Z",
   "marketRegime": "RISK_OFF",
   "sentiment": {
     "vix": {
-      "value": 27.13,
+      "value": 28.44,
       "band": "HIGH",
       "score": -2,
-      "trendBonus": 0
+      "trendBonus": -1
     },
     "gspc": {
-      "value": 7222.2,
-      "ma200": 7348.25,
-      "ratio": 0.9828,
-      "score": 0,
+      "value": 7175.83,
+      "ma200": 7348.02,
+      "ratio": 0.9766,
+      "score": -1,
       "bearCross": true
     },
     "tnx": {
-      "value": 5.062,
-      "change21d": 0.109,
+      "value": 5.052,
+      "change21d": 0.099,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
     },
-    "composite": -2,
-    "label": "CAUTIOUS"
+    "composite": -4,
+    "label": "BEARISH"
   },
   "etfs": [
     {
@@ -52,8 +52,8 @@
         "relative": 3,
         "momentum": 2,
         "technical": -1,
-        "sentimentAdjusted": -1,
-        "total": 3
+        "sentimentAdjusted": -2,
+        "total": 2
       },
       "signal": "SELL",
       "confidence": "HIGH",
@@ -66,7 +66,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 27.13 — elevated fear, risk appetite suppressed"
+        "VIX 28.44 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -791,8 +791,8 @@
         "relative": 1.55,
         "momentum": 2,
         "technical": -2,
-        "sentimentAdjusted": -1,
-        "total": 0.55
+        "sentimentAdjusted": -2,
+        "total": -0.45
       },
       "signal": "SELL",
       "confidence": "HIGH",
@@ -805,7 +805,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 27.13 — elevated fear, risk appetite suppressed"
+        "VIX 28.44 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -1530,8 +1530,8 @@
         "relative": 0,
         "momentum": 1,
         "technical": -0.5,
-        "sentimentAdjusted": -1,
-        "total": -0.5
+        "sentimentAdjusted": -2,
+        "total": -1.5
       },
       "signal": "SELL",
       "confidence": "HIGH",
@@ -1544,7 +1544,7 @@
         "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 27.13 — elevated fear, risk appetite suppressed"
+        "VIX 28.44 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
