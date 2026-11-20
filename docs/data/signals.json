@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-11-20T16:45:07.207Z",
+  "timestamp": "2026-11-20T19:22:10.599Z",
   "marketRegime": "RISK_OFF",
   "sentiment": {
     "vix": {
-      "value": 30.31,
+      "value": 31.84,
       "band": "CRISIS",
       "score": -3,
       "trendBonus": -1
     },
     "gspc": {
-      "value": 7042.06,
-      "ma200": 7349.24,
-      "ratio": 0.9582,
+      "value": 6994.07,
+      "ma200": 7349,
+      "ratio": 0.9517,
       "score": -1,
       "bearCross": true
     },
     "tnx": {
-      "value": 4.95,
-      "change21d": -0.038,
+      "value": 4.94,
+      "change21d": -0.048,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
@@ -30,22 +30,22 @@
       "ticker": "IWFQ.L",
       "name": "iShares MSCI World Quality Factor UCITS ETF",
       "currency": "GBp",
-      "price": 6456,
-      "priceGBP": 6456,
-      "marketState": "POST",
+      "price": 6448,
+      "priceGBP": 6448,
+      "marketState": "POSTPOST",
       "returns": {
-        "1W": -4.9,
-        "1M": -4.13,
-        "3M": -2.55
+        "1W": -5.02,
+        "1M": -4.25,
+        "3M": -2.67
       },
       "technicals": {
-        "rsi14": 31.1,
+        "rsi14": 30.7,
         "macd": {
-          "macd": -40.153,
-          "signal": -14.387,
-          "histogram": -25.766
+          "macd": -40.7912,
+          "signal": -14.5146,
+          "histogram": -26.2766
         },
-        "priceVs50dma": -4.12,
+        "priceVs50dma": -4.24,
         "priceVs200dma": null
       },
       "scores": {
@@ -60,13 +60,13 @@
       "reasons": [
         "OVERRIDE: S&P 500 crossed below 200dMA — market in bear regime, rotating out",
         "Strongest relative performer vs peers across 1W/1M/3M",
-        "1-month return: -4.1%",
-        "3-month return: -2.6%",
+        "1-month return: -4.2%",
+        "3-month return: -2.7%",
         "RSI 31 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 30.31 — extreme fear, very high market risk"
+        "VIX 31.84 — extreme fear, very high market risk"
       ],
       "chartData": {
         "dates": [
@@ -259,7 +259,7 @@
           6616,
           6627,
           6612,
-          6456
+          6448
         ],
         "rsiDates": [
           "2026-07-31",
@@ -423,7 +423,7 @@
           39.74,
           40.8,
           39.77,
-          31.05
+          30.7
         ],
         "macdHistory": [
           {
@@ -767,9 +767,9 @@
             "histogram": -14.167819538916717
           },
           {
-            "macd": -40.15299714021239,
-            "signal": -14.386973238111434,
-            "histogram": -25.766023902100958
+            "macd": -40.79117377838884,
+            "signal": -14.514608565746723,
+            "histogram": -26.276565212642115
           }
         ]
       }
@@ -778,43 +778,43 @@
       "ticker": "IWFV.L",
       "name": "iShares MSCI World Value Factor UCITS ETF",
       "currency": "GBp",
-      "price": 5448,
-      "priceGBP": 5448,
-      "marketState": "POST",
+      "price": 5438,
+      "priceGBP": 5438,
+      "marketState": "POSTPOST",
       "returns": {
-        "1W": -6.47,
-        "1M": -7,
-        "3M": -8.28
+        "1W": -6.64,
+        "1M": -7.17,
+        "3M": -8.45
       },
       "technicals": {
-        "rsi14": 26.6,
+        "rsi14": 26.3,
         "macd": {
-          "macd": -96.2325,
-          "signal": -73.455,
-          "histogram": -22.7775
+          "macd": -97.0302,
+          "signal": -73.6145,
+          "histogram": -23.4157
         },
-        "priceVs50dma": -8.48,
+        "priceVs50dma": -8.64,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.6,
+        "relative": 1.59,
         "momentum": 2,
         "technical": -2,
         "sentimentAdjusted": -2.5,
-        "total": -0.9
+        "total": -0.91
       },
       "signal": "SELL",
       "confidence": "HIGH",
       "reasons": [
         "OVERRIDE: S&P 500 crossed below 200dMA — market in bear regime, rotating out",
         "Above-average relative performance vs peers",
-        "1-month return: -7.0%",
-        "3-month return: -8.3%",
-        "RSI 27 — momentum weakening",
+        "1-month return: -7.2%",
+        "3-month return: -8.5%",
+        "RSI 26 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 30.31 — extreme fear, very high market risk"
+        "VIX 31.84 — extreme fear, very high market risk"
       ],
       "chartData": {
         "dates": [
@@ -1007,7 +1007,7 @@
           5646,
           5623,
           5627,
-          5448
+          5438
         ],
         "rsiDates": [
           "2026-07-31",
@@ -1171,7 +1171,7 @@
           34.81,
           33.71,
           34.1,
-          26.58
+          26.26
         ],
         "macdHistory": [
           {
@@ -1515,9 +1515,9 @@
             "histogram": -10.570215756198792
           },
           {
-            "macd": -96.23252679482539,
-            "signal": -73.45497871443392,
-            "histogram": -22.77754808039147
+            "macd": -97.0302475925464,
+            "signal": -73.61452287397813,
+            "histogram": -23.41572471856827
           }
         ]
       }
@@ -1526,22 +1526,22 @@
       "ticker": "IWFM.L",
       "name": "iShares MSCI World Momentum Factor UCITS ETF",
       "currency": "GBp",
-      "price": 7240,
-      "priceGBP": 7240,
-      "marketState": "POST",
+      "price": 7226,
+      "priceGBP": 7226,
+      "marketState": "POSTPOST",
       "returns": {
-        "1W": -7.99,
-        "1M": -11.47,
-        "3M": -13.89
+        "1W": -8.17,
+        "1M": -11.64,
+        "3M": -14.06
       },
       "technicals": {
-        "rsi14": 28.6,
+        "rsi14": 28.4,
         "macd": {
-          "macd": -255.4618,
-          "signal": -229.0388,
-          "histogram": -26.423
+          "macd": -256.5786,
+          "signal": -229.2621,
+          "histogram": -27.3165
         },
-        "priceVs50dma": -13.84,
+        "priceVs50dma": -14,
         "priceVs200dma": null
       },
       "scores": {
@@ -1556,13 +1556,13 @@
       "reasons": [
         "OVERRIDE: S&P 500 crossed below 200dMA — market in bear regime, rotating out",
         "Lagging peers — weakest relative performance",
-        "1-month return: -11.5%",
-        "3-month return: -13.9%",
-        "RSI 29 — momentum weakening",
+        "1-month return: -11.6%",
+        "3-month return: -14.1%",
+        "RSI 28 — momentum weakening",
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 30.31 — extreme fear, very high market risk"
+        "VIX 31.84 — extreme fear, very high market risk"
       ],
       "chartData": {
         "dates": [
@@ -1755,7 +1755,7 @@
           7566,
           7575,
           7623,
-          7240
+          7226
         ],
         "rsiDates": [
           "2026-07-31",
@@ -1919,7 +1919,7 @@
           33.7,
           34.06,
           36.06,
-          28.61
+          28.4
         ],
         "macdHistory": [
           {
@@ -2263,9 +2263,9 @@
             "histogram": -6.007565769442323
           },
           {
-            "macd": -255.46179005942304,
-            "signal": -229.0387862657465,
-            "histogram": -26.423003793676543
+            "macd": -256.5785991762323,
+            "signal": -229.26214808910834,
+            "histogram": -27.316451087123937
           }
         ]
       }
