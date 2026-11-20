@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-11-20T19:22:10.599Z",
+  "timestamp": "2026-11-20T22:43:10.738Z",
   "marketRegime": "RISK_OFF",
   "sentiment": {
     "vix": {
-      "value": 31.84,
+      "value": 35.89,
       "band": "CRISIS",
       "score": -3,
       "trendBonus": -1
     },
     "gspc": {
-      "value": 6994.07,
-      "ma200": 7349,
-      "ratio": 0.9517,
-      "score": -1,
+      "value": 6910.39,
+      "ma200": 7348.58,
+      "ratio": 0.9404,
+      "score": -2,
       "bearCross": true
     },
     "tnx": {
-      "value": 4.94,
-      "change21d": -0.048,
+      "value": 4.912,
+      "change21d": -0.076,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
     },
-    "composite": -5,
+    "composite": -6,
     "label": "BEARISH"
   },
   "etfs": [
@@ -52,8 +52,8 @@
         "relative": 3,
         "momentum": 2,
         "technical": -2,
-        "sentimentAdjusted": -2.5,
-        "total": 0.5
+        "sentimentAdjusted": -3,
+        "total": 0
       },
       "signal": "SELL",
       "confidence": "HIGH",
@@ -66,7 +66,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 31.84 — extreme fear, very high market risk"
+        "VIX 35.89 — extreme fear, very high market risk"
       ],
       "chartData": {
         "dates": [
@@ -800,8 +800,8 @@
         "relative": 1.59,
         "momentum": 2,
         "technical": -2,
-        "sentimentAdjusted": -2.5,
-        "total": -0.91
+        "sentimentAdjusted": -3,
+        "total": -1.41
       },
       "signal": "SELL",
       "confidence": "HIGH",
@@ -814,7 +814,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 31.84 — extreme fear, very high market risk"
+        "VIX 35.89 — extreme fear, very high market risk"
       ],
       "chartData": {
         "dates": [
@@ -1548,8 +1548,8 @@
         "relative": 0,
         "momentum": 1,
         "technical": -2,
-        "sentimentAdjusted": -2.5,
-        "total": -3.5
+        "sentimentAdjusted": -3,
+        "total": -4
       },
       "signal": "SELL",
       "confidence": "HIGH",
@@ -1562,7 +1562,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "ALERT: S&P 500 crossed below its 200-day MA — bear regime",
-        "VIX 31.84 — extreme fear, very high market risk"
+        "VIX 35.89 — extreme fear, very high market risk"
       ],
       "chartData": {
         "dates": [
