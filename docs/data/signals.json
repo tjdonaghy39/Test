@@ -1,23 +1,23 @@
 {
-  "timestamp": "2026-11-24T19:22:56.923Z",
+  "timestamp": "2026-11-24T21:40:00.999Z",
   "marketRegime": "RISK_OFF",
   "sentiment": {
     "vix": {
-      "value": 26.88,
+      "value": 26.36,
       "band": "HIGH",
       "score": -2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7196.93,
-      "ma200": 7351.27,
-      "ratio": 0.979,
+      "value": 7201.09,
+      "ma200": 7351.29,
+      "ratio": 0.9796,
       "score": -1,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.906,
-      "change21d": -0.087,
+      "value": 4.904,
+      "change21d": -0.089,
       "growthScore": 0,
       "valueScore": 0,
       "label": "STABLE"
@@ -65,7 +65,7 @@
         "MACD negative but histogram recovering",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
-        "VIX 26.88 — elevated fear, risk appetite suppressed"
+        "VIX 26.36 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -794,7 +794,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
-        "VIX 26.88 — elevated fear, risk appetite suppressed"
+        "VIX 26.36 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -1523,7 +1523,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
-        "VIX 26.88 — elevated fear, risk appetite suppressed"
+        "VIX 26.36 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
