@@ -1,28 +1,28 @@
 {
-  "timestamp": "2026-11-25T18:28:10.805Z",
+  "timestamp": "2026-11-25T20:48:01.531Z",
   "marketRegime": "RISK_OFF",
   "sentiment": {
     "vix": {
-      "value": 29.2,
+      "value": 28.57,
       "band": "HIGH",
       "score": -2,
       "trendBonus": 0
     },
     "gspc": {
-      "value": 7165.14,
-      "ma200": 7352.4,
-      "ratio": 0.9745,
+      "value": 7179.05,
+      "ma200": 7352.47,
+      "ratio": 0.9764,
       "score": -1,
       "bearCross": false
     },
     "tnx": {
-      "value": 4.834,
-      "change21d": -0.211,
-      "growthScore": 1,
-      "valueScore": -1,
-      "label": "FALLING"
+      "value": 4.848,
+      "change21d": -0.197,
+      "growthScore": 0,
+      "valueScore": 0,
+      "label": "STABLE"
     },
-    "composite": -2,
+    "composite": -3,
     "label": "CAUTIOUS"
   },
   "etfs": [
@@ -52,10 +52,10 @@
         "relative": 3,
         "momentum": 3,
         "technical": -1.5,
-        "sentimentAdjusted": -0.5,
-        "total": 4
+        "sentimentAdjusted": -1.5,
+        "total": 3
       },
-      "signal": "BUY",
+      "signal": "HOLD",
       "confidence": "MEDIUM",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
@@ -65,7 +65,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
-        "VIX 29.2 — elevated fear, risk appetite suppressed"
+        "VIX 28.57 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -794,7 +794,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
-        "VIX 29.2 — elevated fear, risk appetite suppressed"
+        "VIX 28.57 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
@@ -1510,8 +1510,8 @@
         "relative": 0,
         "momentum": 1,
         "technical": -2,
-        "sentimentAdjusted": -0.5,
-        "total": -1.5
+        "sentimentAdjusted": -1.5,
+        "total": -2.5
       },
       "signal": "SELL",
       "confidence": "LOW",
@@ -1523,7 +1523,7 @@
         "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
-        "VIX 29.2 — elevated fear, risk appetite suppressed"
+        "VIX 28.57 — elevated fear, risk appetite suppressed"
       ],
       "chartData": {
         "dates": [
