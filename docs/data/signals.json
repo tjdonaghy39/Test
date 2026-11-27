@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T20:39:48.409Z",
+  "timestamp": "2026-11-27T00:42:05.752Z",
   "marketRegime": "RISK_OFF",
   "sentiment": {
     "vix": {
@@ -32,37 +32,37 @@
       "currency": "GBp",
       "price": 6639,
       "priceGBP": 6639,
-      "marketState": "POSTPOST",
+      "marketState": "PREPRE",
       "returns": {
-        "1W": 0.41,
-        "1M": -1.78,
-        "3M": -1.03
+        "1W": -2.26,
+        "1M": -4.14,
+        "3M": -2.86
       },
       "technicals": {
-        "rsi14": 48.2,
+        "rsi14": 37.8,
         "macd": {
-          "macd": -49.619,
-          "signal": -34.8128,
-          "histogram": -14.8062
+          "macd": -55.4762,
+          "signal": -31.1113,
+          "histogram": -24.3649
         },
-        "priceVs50dma": -1.4,
+        "priceVs50dma": -3.8,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 3,
         "momentum": 3,
-        "technical": 0,
+        "technical": -1.5,
         "sentimentAdjusted": -1.5,
-        "total": 4.5
+        "total": 3
       },
-      "signal": "BUY",
+      "signal": "HOLD",
       "confidence": "MEDIUM",
       "reasons": [
         "Strongest relative performer vs peers across 1W/1M/3M",
-        "1-month return: -1.8%",
-        "3-month return: -1.0%",
-        "RSI 48 — neutral zone",
-        "MACD negative but histogram recovering",
+        "1-month return: -4.1%",
+        "3-month return: -2.9%",
+        "RSI 38 — neutral zone",
+        "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
         "VIX 26.8 — elevated fear, risk appetite suppressed"
@@ -160,8 +160,7 @@
           "2026-11-20",
           "2026-11-23",
           "2026-11-24",
-          "2026-11-25",
-          "2026-11-26"
+          "2026-11-25"
         ],
         "prices": [
           6546,
@@ -255,8 +254,7 @@
           6448,
           6625,
           6560,
-          6477,
-          6639
+          6477
         ],
         "rsiDates": [
           "2026-08-07",
@@ -336,8 +334,7 @@
           "2026-11-20",
           "2026-11-23",
           "2026-11-24",
-          "2026-11-25",
-          "2026-11-26"
+          "2026-11-25"
         ],
         "rsi": [
           67.64,
@@ -417,8 +414,7 @@
           30.73,
           45.24,
           41.78,
-          37.8,
-          48.17
+          37.8
         ],
         "macdHistory": [
           {
@@ -755,11 +751,6 @@
             "macd": -55.47618611204689,
             "signal": -31.111255673205402,
             "histogram": -24.364930438841487
-          },
-          {
-            "macd": -49.61901106485038,
-            "signal": -34.812806751534396,
-            "histogram": -14.806204313315988
           }
         ]
       }
@@ -770,37 +761,37 @@
       "currency": "GBp",
       "price": 5564,
       "priceGBP": 5564,
-      "marketState": "POSTPOST",
+      "marketState": "PREPRE",
       "returns": {
-        "1W": -1.12,
-        "1M": -7.03,
-        "3M": -7.8
+        "1W": -3.7,
+        "1M": -9.31,
+        "3M": -9.49
       },
       "technicals": {
-        "rsi14": 41.9,
+        "rsi14": 32.7,
         "macd": {
-          "macd": -111.3597,
-          "signal": -94.0427,
-          "histogram": -17.317
+          "macd": -115.4336,
+          "signal": -89.7134,
+          "histogram": -25.7201
         },
-        "priceVs50dma": -5.8,
+        "priceVs50dma": -8.51,
         "priceVs200dma": null
       },
       "scores": {
-        "relative": 1.7,
+        "relative": 1.79,
         "momentum": 2,
-        "technical": -0.5,
+        "technical": -2,
         "sentimentAdjusted": -1.5,
-        "total": 1.7
+        "total": 0.29
       },
-      "signal": "HOLD",
+      "signal": "SELL",
       "confidence": "LOW",
       "reasons": [
         "Above-average relative performance vs peers",
-        "1-month return: -7.0%",
-        "3-month return: -7.8%",
-        "RSI 42 — neutral zone",
-        "MACD negative but histogram recovering",
+        "1-month return: -9.3%",
+        "3-month return: -9.5%",
+        "RSI 33 — momentum weakening",
+        "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
         "VIX 26.8 — elevated fear, risk appetite suppressed"
@@ -898,8 +889,7 @@
           "2026-11-20",
           "2026-11-23",
           "2026-11-24",
-          "2026-11-25",
-          "2026-11-26"
+          "2026-11-25"
         ],
         "prices": [
           5740,
@@ -993,8 +983,7 @@
           5438,
           5622,
           5499,
-          5415,
-          5564
+          5415
         ],
         "rsiDates": [
           "2026-08-07",
@@ -1074,8 +1063,7 @@
           "2026-11-20",
           "2026-11-23",
           "2026-11-24",
-          "2026-11-25",
-          "2026-11-26"
+          "2026-11-25"
         ],
         "rsi": [
           72.61,
@@ -1155,8 +1143,7 @@
           26.28,
           40.61,
           35.63,
-          32.68,
-          41.87
+          32.68
         ],
         "macdHistory": [
           {
@@ -1493,11 +1480,6 @@
             "macd": -115.43355792272268,
             "signal": -89.71343424523135,
             "histogram": -25.72012367749133
-          },
-          {
-            "macd": -111.35974503699981,
-            "signal": -94.04269640358504,
-            "histogram": -17.31704863341477
           }
         ]
       }
@@ -1508,37 +1490,37 @@
       "currency": "GBp",
       "price": 7296,
       "priceGBP": 7296,
-      "marketState": "POSTPOST",
+      "marketState": "PREPRE",
       "returns": {
-        "1W": -4.29,
-        "1M": -14.39,
-        "3M": -14.1
+        "1W": -7.17,
+        "1M": -16.76,
+        "3M": -17.14
       },
       "technicals": {
-        "rsi14": 38.7,
+        "rsi14": 31,
         "macd": {
-          "macd": -289.147,
-          "signal": -258.2117,
-          "histogram": -30.9353
+          "macd": -292.6225,
+          "signal": -250.4778,
+          "histogram": -42.1447
         },
-        "priceVs50dma": -12.12,
+        "priceVs50dma": -15.58,
         "priceVs200dma": null
       },
       "scores": {
         "relative": 0,
         "momentum": 1,
-        "technical": -0.5,
+        "technical": -2,
         "sentimentAdjusted": -1.5,
-        "total": -1
+        "total": -2.5
       },
       "signal": "SELL",
       "confidence": "LOW",
       "reasons": [
         "Lagging peers — weakest relative performance",
-        "1-month return: -14.4%",
-        "3-month return: -14.1%",
-        "RSI 39 — neutral zone",
-        "MACD negative but histogram recovering",
+        "1-month return: -16.8%",
+        "3-month return: -17.1%",
+        "RSI 31 — momentum weakening",
+        "MACD histogram negative and widening — bearish momentum",
         "Short-term momentum accelerating above medium-term pace — emerging trend",
         "S&P 500 below 200dMA — bear market headwinds",
         "VIX 26.8 — elevated fear, risk appetite suppressed"
@@ -1636,8 +1618,7 @@
           "2026-11-20",
           "2026-11-23",
           "2026-11-24",
-          "2026-11-25",
-          "2026-11-26"
+          "2026-11-25"
         ],
         "prices": [
           8455,
@@ -1731,8 +1712,7 @@
           7226,
           7549,
           7248,
-          7032,
-          7296
+          7032
         ],
         "rsiDates": [
           "2026-08-07",
@@ -1812,8 +1792,7 @@
           "2026-11-20",
           "2026-11-23",
           "2026-11-24",
-          "2026-11-25",
-          "2026-11-26"
+          "2026-11-25"
         ],
         "rsi": [
           53.95,
@@ -1893,8 +1872,7 @@
           28.42,
           39.65,
           34.26,
-          31,
-          38.68
+          31
         ],
         "macdHistory": [
           {
@@ -2231,11 +2209,6 @@
             "macd": -292.62249631895247,
             "signal": -250.47782598957494,
             "histogram": -42.14467032937753
-          },
-          {
-            "macd": -289.14696082221144,
-            "signal": -258.2116529561022,
-            "histogram": -30.935307866109213
           }
         ]
       }
